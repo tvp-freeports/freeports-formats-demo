@@ -1,0 +1,1994 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 0
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 0
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 0
+    },
+    "content": "Generali, 4.16%, 03/01/2035"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 0
+    },
+    "content": "348"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 0
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 2
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 2
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 2
+    },
+    "content": "Generali, 4.14%, 18/06/2036"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 2
+    },
+    "content": "229"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 2
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 3
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 3
+    },
+    "content": "500,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 3
+    },
+    "content": "Generali, FRN, 5.50%, 27/10/2047"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 3
+    },
+    "content": "603"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 3
+    },
+    "content": "0.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 4
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 4
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 4
+    },
+    "content": "Generali, FRN, 4.25%, 14/12/2047"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 4
+    },
+    "content": "118"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 4
+    },
+    "content": "0.00"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 6
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 6
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 6
+    },
+    "content": "Generali, FRN, 5.00%, 08/06/2048"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 6
+    },
+    "content": "241"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 6
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 8
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 8
+    },
+    "content": "150,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 8
+    },
+    "content": "Iccrea Banca SpA, 3.38%, 30/01/2030"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 8
+    },
+    "content": "175"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 8
+    },
+    "content": "0.00"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 10
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 10
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 10
+    },
+    "content": "Iccrea Banca SpA, FRN, 6.38%, 20/09/2027"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 10
+    },
+    "content": "119"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 10
+    },
+    "content": "0.00"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 12
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 12
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 12
+    },
+    "content": "Iccrea Banca SpA, FRN, 6.88%, 20/01/2028"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 12
+    },
+    "content": "121"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 12
+    },
+    "content": "0.00"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 14
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 14
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 14
+    },
+    "content": "Iccrea Banca SpA, FRN, 4.25%, 05/02/2030"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 14
+    },
+    "content": "119"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 14
+    },
+    "content": "0.00"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 16
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 16
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 16
+    },
+    "content": "Illimity Bank SpA, 5.75%, 31/05/2027"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 16
+    },
+    "content": "120"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 16
+    },
+    "content": "0.00"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 18
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 18
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 18
+    },
+    "content": "Intesa Sanpaolo SpA, 4.00%, 19/05/2026"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 18
+    },
+    "content": "116"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 18
+    },
+    "content": "0.00"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 20
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 20
+    },
+    "content": "400,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 20
+    },
+    "content": "Intesa Sanpaolo SpA, 1.00%, 19/11/2026"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 20
+    },
+    "content": "451"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 20
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 22
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 22
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 22
+    },
+    "content": "Intesa Sanpaolo SpA, 4.38%, 29/08/2027"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 22
+    },
+    "content": "357"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 22
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 24
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 24
+    },
+    "content": "150,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 24
+    },
+    "content": "Intesa Sanpaolo SpA, 4.75%, 06/09/2027"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 24
+    },
+    "content": "180"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 24
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 26
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 26
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 26
+    },
+    "content": "Intesa Sanpaolo SpA, 3.88%, 12/01/2028"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 26
+    },
+    "content": "196"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 26
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 28
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 28
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 28
+    },
+    "content": "Intesa Sanpaolo SpA, 0.75%, 16/03/2028"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 28
+    },
+    "content": "219"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 28
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 30
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 30
+    },
+    "content": "600,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 30
+    },
+    "content": "Intesa Sanpaolo SpA, 1.75%, 20/03/2028"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 30
+    },
+    "content": "674"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 30
+    },
+    "content": "0.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 32
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 32
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 32
+    },
+    "content": "Intesa Sanpaolo SpA, 4.00%, 23/09/2029"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 32
+    },
+    "content": "194"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 32
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 34
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 34
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 34
+    },
+    "content": "Intesa Sanpaolo SpA, 5.25%, 13/01/2030"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 34
+    },
+    "content": "252"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 34
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 36
+    },
+    "content": "GBP"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 36
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 36
+    },
+    "content": "Intesa Sanpaolo SpA, 2.50%, 15/01/2030"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 36
+    },
+    "content": "360"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 36
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 38
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 38
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 38
+    },
+    "content": "Intesa Sanpaolo SpA, 4.88%, 19/05/2030"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 38
+    },
+    "content": "372"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 38
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 40
+    },
+    "content": "GBP"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 40
+    },
+    "content": "500,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 2,
+      "table-row": 40
+    },
+    "content": "Intesa Sanpaolo SpA, 5.15%, 10/06/2030"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 3,
+      "table-row": 40
+    },
+    "content": "656"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 4,
+      "table-row": 40
+    },
+    "content": "0.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 1
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 1
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 1
+    },
+    "content": "Intesa Sanpaolo SpA, 2.93%, 14/10/2030"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 1
+    },
+    "content": "224"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 1
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 3
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 3
+    },
+    "content": "425,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 3
+    },
+    "content": "Intesa Sanpaolo SpA, 3.63%, 16/10/2030"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 3
+    },
+    "content": "501"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 3
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 5
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 5
+    },
+    "content": "150,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 5
+    },
+    "content": "Intesa Sanpaolo SpA, 5.13%, 29/08/2031"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 5
+    },
+    "content": "190"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 5
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 7
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 7
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 7
+    },
+    "content": "Intesa Sanpaolo SpA, 5.63%, 08/03/2033"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 7
+    },
+    "content": "261"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 7
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 9
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 9
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 9
+    },
+    "content": "Intesa Sanpaolo SpA, 6.63%, 20/06/2033"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 9
+    },
+    "content": "326"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 9
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 11
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 11
+    },
+    "content": "700,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 11
+    },
+    "content": "Intesa Sanpaolo SpA, 7.20%, 28/11/2033"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 11
+    },
+    "content": "787"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 11
+    },
+    "content": "0.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 13
+    },
+    "content": "GBP"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 13
+    },
+    "content": "100,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 13
+    },
+    "content": "Intesa Sanpaolo SpA, 2.63%, 11/03/2036"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 13
+    },
+    "content": "100"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 13
+    },
+    "content": "0.00"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 15
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 15
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 15
+    },
+    "content": "Intesa Sanpaolo SpA, 7.80%, 28/11/2053"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 15
+    },
+    "content": "239"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 15
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 17
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 17
+    },
+    "content": "750,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 17
+    },
+    "content": "Intesa Sanpaolo SpA, FRN, 5.00%, 08/03/2028"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 17
+    },
+    "content": "892"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 17
+    },
+    "content": "0.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 19
+    },
+    "content": "GBP"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 19
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 19
+    },
+    "content": "Intesa Sanpaolo SpA, FRN, 6.50%, 14/03/2029"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 19
+    },
+    "content": "275"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 19
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 21
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 21
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 21
+    },
+    "content": "Intesa Sanpaolo SpA, FRN, 4.20%, 01/06/2032"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 21
+    },
+    "content": "186"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 21
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 23
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 23
+    },
+    "content": "850,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 23
+    },
+    "content": "Intesa Sanpaolo SpA, FRN, 3.85%, 16/09/2032"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 23
+    },
+    "content": "996"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 23
+    },
+    "content": "0.03"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 25
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 25
+    },
+    "content": "700,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 25
+    },
+    "content": "Intesa Sanpaolo SpA, FRN, 8.25%, 21/11/2033"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 25
+    },
+    "content": "813"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 25
+    },
+    "content": "0.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 27
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 27
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 27
+    },
+    "content": "Intesa Sanpaolo SpA, FRN, 6.18%, 20/02/2034"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 27
+    },
+    "content": "374"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 27
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 29
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 29
+    },
+    "content": "400,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 29
+    },
+    "content": "Intesa Sanpaolo SpA, FRN, 4.27%, 14/11/2036"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 29
+    },
+    "content": "465"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 29
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 31
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 31
+    },
+    "content": "700,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 31
+    },
+    "content": "Intesa Sanpaolo SpA, FRN, 4.95%, 01/06/2042"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 31
+    },
+    "content": "576"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 31
+    },
+    "content": "0.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 33
+    },
+    "content": "USD"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 33
+    },
+    "content": "500,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 33
+    },
+    "content": "Intesa Sanpaolo SpA, FRN, 7.78%, 20/06/2054"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 33
+    },
+    "content": "573"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 33
+    },
+    "content": "0.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 35
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 35
+    },
+    "content": "500,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 35
+    },
+    "content": "Iren SpA, 1.00%, 01/07/2030"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 35
+    },
+    "content": "522"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 35
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 36
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 36
+    },
+    "content": "200,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 36
+    },
+    "content": "Iren SpA, 0.25%, 17/01/2031"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 36
+    },
+    "content": "198"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 36
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 37
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 37
+    },
+    "content": "700,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 37
+    },
+    "content": "Iren SpA, 3.88%, 22/07/2032"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 37
+    },
+    "content": "828"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 37
+    },
+    "content": "0.02"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 39
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 39
+    },
+    "content": "400,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 39
+    },
+    "content": "Italgas SpA, 1.63%, 19/01/2027"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 39
+    },
+    "content": "453"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 39
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 5,
+      "table-row": 40
+    },
+    "content": "EUR"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 6,
+      "table-row": 40
+    },
+    "content": "300,000"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 7,
+      "table-row": 40
+    },
+    "content": "Italgas SpA, 0.00%, 16/02/2028"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 8,
+      "table-row": 40
+    },
+    "content": "321"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "TABLE_BODY",
+    "metadata": {
+      "table-col": 9,
+      "table-row": 40
+    },
+    "content": "0.01"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "FUND_NAME",
+    "metadata": {},
+    "content": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE) (continued)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "CURRENCY_STATEMENT",
+    "metadata": {},
+    "content": "USD ‘000"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "ISHARES EMERGING MARKETS GOVERNMENT BOND ADVANCED INDEX FUND (IE)",
+      "name": "Exclusion of issuers with a JP Morgan ESG (\"JESG\") Rating Band of 5",
+      "value": "0.00%"
+    },
+    "content": "0.00%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "ESG_FIGURE",
+      "metadata": {
+        "column": 0,
+        "indicator": "Exclusion of issuers with a JP Morgan ESG (\"JESG\") Rating Band of 5",
+        "series": 0
+      },
+      "content": "0.00%"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "ISHARES EMERGING MARKETS GOVERNMENT BOND ADVANCED INDEX FUND (IE)",
+      "name": "Exclusion of issuers involved in certain activities deemed to have negative environmental and/or social outcomes(listed above)",
+      "value": "0.00%"
+    },
+    "content": "0.00%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "ESG_FIGURE",
+      "metadata": {
+        "column": 0,
+        "indicator": "Exclusion of issuers involved in certain activities deemed to have negative environmental and/or social outcomes(listed above)",
+        "series": 0
+      },
+      "content": "0.00%"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "ISHARES EMERGING MARKETS GOVERNMENT BOND ADVANCED INDEX FUND (IE)",
+      "name": "Exclusion of companies classified as violating United Nations Global Compact principles",
+      "value": "0.00%"
+    },
+    "content": "0.00%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "ESG_FIGURE",
+      "metadata": {
+        "column": 0,
+        "indicator": "Exclusion of companies classified as violating United Nations Global Compact principles",
+        "series": 0
+      },
+      "content": "0.00%"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "fund": "ISHARES EMERGING MARKETS GOVERNMENT BOND ADVANCED INDEX FUND (IE)",
+      "name": "Exposure to bonds classed as green bonds",
+      "value": "1.99%"
+    },
+    "content": "1.99%",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "ESG_FIGURE",
+      "metadata": {
+        "column": 0,
+        "indicator": "Exposure to bonds classed as green bonds",
+        "series": 0
+      },
+      "content": "1.99%"
+    }
+  }
+]

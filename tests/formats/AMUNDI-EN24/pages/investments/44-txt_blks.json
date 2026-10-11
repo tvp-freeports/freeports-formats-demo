@@ -1,0 +1,154 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "Polen Capital Global Growth",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
+      "metadata": {},
+      "content": "Polen Capital Global Growth"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
+    "metadata": {
+      "% net assets": "2.98",
+      "company": "Siemens",
+      "company match": "SIEMENS HEALTHINEERS AG",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:USD"
+      },
+      "fund": "Polen Capital Global Growth",
+      "manco": null,
+      "market value": "22,477,426",
+      "quantity": "389,826",
+      "table col": 1,
+      "table row": 7
+    },
+    "content": "SIEMENS HEALTHINEERS AG",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 1,
+        "table-row": 7
+      },
+      "content": "SIEMENS HEALTHINEERS AG"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
+    "metadata": {
+      "% net assets": "1.93",
+      "company": "Airbnb",
+      "company match": "AIRBNB INC",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:USD"
+      },
+      "fund": "Polen Capital Global Growth",
+      "manco": null,
+      "market value": "14,512,811",
+      "quantity": "95,712",
+      "table col": 1,
+      "table row": 15
+    },
+    "content": "AIRBNB INC",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 1,
+        "table-row": 15
+      },
+      "content": "AIRBNB INC"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
+    "metadata": {
+      "% net assets": "6.56",
+      "company": "Alphabet",
+      "company match": "ALPHABET INC SHS C",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:USD"
+      },
+      "fund": "Polen Capital Global Growth",
+      "manco": null,
+      "market value": "49,401,793",
+      "quantity": "269,337",
+      "table col": 1,
+      "table row": 16
+    },
+    "content": "ALPHABET INC SHS C",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 1,
+        "table-row": 16
+      },
+      "content": "ALPHABET INC SHS C"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
+    "metadata": {
+      "% net assets": "9.67",
+      "company": "Amazon",
+      "company match": "AMAZON.COM INC",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:USD"
+      },
+      "fund": "Polen Capital Global Growth",
+      "manco": null,
+      "market value": "72,939,313",
+      "quantity": "377,435",
+      "table col": 1,
+      "table row": 17
+    },
+    "content": "AMAZON.COM INC",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 1,
+        "table-row": 17
+      },
+      "content": "AMAZON.COM INC"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "EQUITY_TARGET",
+    "metadata": {
+      "% net assets": "6.48",
+      "company": "Microsoft",
+      "company match": "MICROSOFT CORP",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:USD"
+      },
+      "fund": "Polen Capital Global Growth",
+      "manco": null,
+      "market value": "48,850,294",
+      "quantity": "109,297",
+      "table col": 1,
+      "table row": 20
+    },
+    "content": "MICROSOFT CORP",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 1,
+        "table-row": 20
+      },
+      "content": "MICROSOFT CORP"
+    }
+  }
+]

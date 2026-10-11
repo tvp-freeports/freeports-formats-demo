@@ -1,0 +1,54 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "USD '000",
+      "date": "As at 31 July 2025",
+      "fund": "iShares World ex Euro Government Bond Index Fund (IE)",
+      "liabilities": "(28,021)",
+      "net_assets": "1,224,536",
+      "tot_assets": "1,252,557"
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "EUR '000",
+      "date": "As at 31 July 2025",
+      "fund": "iShares Euro Long Duration Government Bond Index Fund (IE)",
+      "liabilities": "(9,337)",
+      "net_assets": "1,221,466",
+      "tot_assets": "1,230,803"
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "USD '000",
+      "date": "As at 31 July 2025",
+      "fund": "iShares Global Securitised Index Fund (IE)",
+      "liabilities": "(16,578)",
+      "net_assets": "173,519",
+      "tot_assets": "190,097"
+    },
+    "content": ""
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "RELEVANT_BLOCK",
+    "metadata": {
+      "currency": "USD '000",
+      "date": "As at 31 July 2025",
+      "fund": "iShares USD Sukuk Index Fund (IE)",
+      "liabilities": "(1,266)",
+      "net_assets": "26,513",
+      "tot_assets": "27,779"
+    },
+    "content": ""
+  }
+]

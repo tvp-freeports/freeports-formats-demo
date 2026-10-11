@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "date": {
+          "__date__": "2025-07-31"
+        },
+        "fund": "iShares World ex Euro Government Bond Index Fund (IE)",
+        "liabilities": 28021.0,
+        "net_assets": 1224536.0,
+        "tot_assets": 1252557.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "date": {
+          "__date__": "2025-07-31"
+        },
+        "fund": "iShares Global Securitised Index Fund (IE)",
+        "liabilities": 16578.0,
+        "net_assets": 173519.0,
+        "tot_assets": 190097.0
+      }
+    }
+  }
+]

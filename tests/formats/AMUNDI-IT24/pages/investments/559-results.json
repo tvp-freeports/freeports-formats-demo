@@ -1,0 +1,28 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Equity",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Booking Holdings",
+        "company_match": "BOOKING HOLDINGS INC",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "Amundi Accumulazione Intelligenza Artificiale 2029 ",
+        "market_value": 4990.87,
+        "nominal_quantity": 66.0,
+        "perc_net_assets": 0.0025
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "AMUNDI ACCUMULAZIONE INTELLIGENZA ARTIFICIALE 2029"
+      }
+    }
+  }
+]

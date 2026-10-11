@@ -1,0 +1,222 @@
+AMUNDI-IT24(investments):
+  deselection_list:
+    - font: TrebuchetMS
+      text: "^ "
+  body_set:
+    font: TrebuchetMS
+  subfund_set:
+    font: Arial-BoldItalicMT
+    area:
+      y_max: 60
+  currency: EUR
+  # 0.5 on both axes, which is what this format has always had: of the two keys the old schema
+  # accepted the engine passed only one to the tabularizer, and that one value served columns and
+  # rows together. The two axes are separate now and neither stands in for the other, so the value
+  # that was implicit is written twice.
+  col_tolerance: 0.5
+  row_tolerance: 0.5
+  # `C31` resta aperta, e adesso si sa quanto costa. Su p446 la maturita' di
+  # `CATERPILLAR FINANCIAL SERVICES 0.8% 13-11-` va a capo e il `25` finisce da solo nella colonna
+  # dei nomi: `collapse_cols: [0]` la ricompone — la cella c'e' e il `collapse` la chiude — ma su
+  # ventisette prospetti costa **tredici righe** di `investments.csv`, perche' qui le celle che la
+  # geometria dice rotte sono spesso due investimenti di fila. E' il caso di cui hai detto «se per
+  # fare questo si rompe l'algoritmo, si puo' tenere cosi'».
+
+# `FA-2` e `FA-3`: ventisette comparti, ventisette coppie di pagine. La difficolta' non e'
+# l'appaiamento ma `R5`, cioe' **quale** colonna di numeri sia l'esercizio corrente. Due comparti su
+# ventisette sono nati nell'esercizio e la colonna di prima non ce l'hanno: la pagina non la lascia
+# vuota, la **toglie**, e il valore corrente si stampa dove sulle altre sta il precedente — sul
+# passivo i due posti coincidono (`504,6-533,9` contro `508,8-533,9`), quindi nessuna ascissa fissa
+# li distingue, e nemmeno la distanza dall'etichetta (ventun righe contro trentatre).
+#
+# Cio' che li distingue e' l'**intestazione**: `Situazione a fine esercizio precedente` c'e' solo
+# dove la colonna c'e', e il suo margine sinistro e' il limite destro dell'esercizio corrente; dove
+# non c'e', la selezione non trova niente e il limite resta aperto, che e' la lettura giusta perche'
+# non c'e' nessuna colonna da cui difendersi. Resta una sottrazione sola: le percentuali portano la
+# virgola decimale e gli importi no.
+AMUNDI-IT24(fund_assets_begin):
+  - selection:
+      font: Arial-BoldItalicMT
+      font_size: [9.9, 10.1]
+      area:
+        y_min: 40
+        y_max: 60
+  - currency: EUR
+  - label:
+      font: TrebuchetMS-Bold
+      font_size: [6.9, 7.0]
+      text: '^TOTALE ATTIVITÀ'
+    block_type: TOT_ASSETS
+    name: tot_assets
+    where: right
+    value:
+      area:
+        x_max:
+          text: '^Situazione a fine'
+      without:
+        - text: ','
+
+AMUNDI-IT24(fund_assets_end):
+  - selection:
+      font: Arial-BoldItalicMT
+      font_size: [9.9, 10.1]
+      area:
+        y_min: 40
+        y_max: 60
+  - currency: EUR
+  - label:
+      font: TrebuchetMS
+      font_size: [6.9, 7.0]
+      text: '^Situazione al'
+    block_type: ASSETS_DATE
+    name: assets date
+    where: below
+  - label:
+      font: TrebuchetMS-Bold
+      font_size: [6.9, 7.0]
+      text: '^TOTALE PASSIVITÀ'
+    block_type: LIABILITIES
+    name: liabilities
+    where: right
+    value:
+      area:
+        x_max:
+          text: '^Situazione a fine'
+      without:
+        - text: ','
+  - label:
+      font: TrebuchetMS
+      font_size: [6.9, 7.0]
+      text: '^VALORE COMPLESSIVO NETTO DEL FONDO'
+    block_type: NET_ASSETS
+    name: net_assets
+    where: right
+    value:
+      area:
+        x_max:
+          text: '^Situazione a fine'
+      without:
+        - text: ','
+
+# `C02`: il report **non dichiara** la societa' di gestione — `Amundi SGR S.p.A.` compare tre volte e
+# mai nel suo ruolo — quindi il formato la impone (`R3`, con avviso) e l'etichetta dice solo **su
+# quale pagina** dichiararla: il sommario, che ogni documento del formato ha una volta sola. Sta qui
+# e non nella tabella structured del manco, che tiene la forma comune (il nome letto dalla pagina).
+AMUNDI-IT24(manco):
+  label: {font: arial-boldmt, text: '^SOMMARIO'}
+  block_type: MANAGEMENT_COMPANY
+  name: managment company
+
+# `FA-2` e `FA-3`: `SITUAZIONE PATRIMONIALE` apre l'attivo su una pagina e continua col passivo e il
+# netto su quella dopo, e `FundAssets` vuole i tre importi insieme (`R32`), quindi nessuna delle due
+# pagine da sola costruisce la riga — il totale delle attivita' attraversa il confine come promessa.
+#
+# `R5`: le due pagine mettono la colonna corrente in **due posti diversi**, e sulla pagina
+# dell'attivo fra le due colonne di valori ce n'e' una di percentuali. Nessuna delle tre si separa
+# con un'ancora testuale, perche' portano tutte soltanto cifre: le ascisse sono misurate su tutt'e
+# due i documenti di prova, che concordano — sull'attivo il valore sta fra 310 e 353 e la percentuale
+# comincia a 384, sul passivo il valore sta fra 407 e 451 e l'esercizio precedente comincia a 458.
+#
+# `CLASSE P` e `CLASSE R` cominciano con le stesse parole del netto del fondo: sono il netto delle
+# **classi di quote**, e si **sottraggono**. Non ci si affida al fatto che il netto del fondo venga
+# per primo, perche' le righe di una pagina non arrivano in ordine di lettura e `take: first` sceglie
+# la prima dell'elenco, non la piu' in alto.
+#
+# `R17`: la data si prende dalla colonna, sotto `Situazione al` e alla stessa ascissa; la copertina
+# la scrive dentro il titolo del prospetto, che e' la fonte meno diretta.
+# `FC-3`: ogni evento e' una frase, col verbo e la data dentro. La sezione e'
+# `NOTE 12 - EVENTS DURING THE YEAR` e si **ferma** alla nota che segue, `NOTE 13 - POST BALANCE
+# SHEET EVENTS`: il bilancio chiude il 31 dicembre 2024 e la fusione di quella nota e' del
+# 21 febbraio 2025, quindi appartiene all'esercizio dopo (`C36`). A chiuderla e' `family`, che qui
+# e' la **stessa** selezione dell'intestazione: le intestazioni di nota sono le sole righe in
+# `calibri-bold` da 9.
+DANSKEINVEST-EN24(merges):
+  heading:
+    font: calibri-bold
+    font_size: [8.5, 9.5]
+    text: EVENTS DURING THE YEAR
+  block_type: RELEVANT_BLOCK
+  name: merges
+  family:
+    font: calibri-bold
+    font_size: [8.5, 9.5]
+  body:
+    font: calibri
+    font_size: [8.5, 9.5]
+
+# `FC-1`, p510: tre sezioni una sotto l'altra con la **stessa** tipografia — comparti lanciati,
+# ridenominati, liquidati — e solo la seconda porta un dato. L'intestazione **porta la data**
+# (`on 15 March 2024`) e sotto ci sono ventun righe senza data, ma qui `include_heading` non serve:
+# la data la ritrova il `text_filter`, che riceve la sezione intera.
+# `FC-1`, p510: tre sezioni una sotto l'altra con la **stessa** tipografia — comparti lanciati,
+# ridenominati, liquidati — e solo la seconda porta un dato. L'intestazione **porta la data**
+# (`on 15 March 2024`) e sotto ci sono ventun righe senza data, ma qui `include_heading` non serve:
+# la data la ritrova il `text_filter`, che riceve la sezione intera.
+AMUNDI-EN24(renaming):
+  heading:
+    font: arial-boldmt
+    font_size: [9.0, 10.0]
+    text: INTRODUCTION
+  block_type: RELEVANT_BLOCK
+  name: renaming
+  body:
+    font: arialmt
+    font_size: [6.5, 7.5]
+
+# `C16`, p4: le entrate dei gestori non si distinguono per tipografia — un nome, il suo elenco di
+# comparti e il nome dopo sono lo stesso carattere — quindi le numera lo **stacco verticale**:
+# quindici sta fra i 9,2 di una stessa entrata e i 18,4 fra due entrate. Il corpo si taglia per
+# ascissa, e le righe di soli spazi si sottraggono: arrivando prima di quelle vere, diventerebbero
+# il nome dell'entrata.
+
+# BlackRock writes the annex's own words with its own capitals: on the Article 9 disclosure the
+# band that closes the product name's column is `Sustainable Investment Objective`, where the
+# engine's measured wording is `Sustainable investment objective`. A text anchor is a **verbatim**
+# substring, so the band has to be restated here -- with all three wordings, because an override
+# **replaces** the list instead of adding to it, and three of the four disclosures are Article 8
+# and close on the other one. Without it the product name of p1249 runs to the foot of the page
+# and that sub-fund disappears without an error (`R24`).
+BLACKROCK-EN25(sfdr_classification):
+  language: ENGLISH
+  product_joined: true
+  band:
+    - Environmental and/or social characteristics
+    - Sustainable investment objective
+    - Sustainable Investment Objective
+
+# Note 16 of the financial statements (p92) is the only page that ties a delegate to a sub-fund,
+# and it is self-sufficient: it names the Investment Manager in its list of related parties and
+# then gives the table of sub-delegations. This pipe reads the first, and the structured
+# `investments` row of the same pipeline reads the table as a grid -- which is what the
+# `inv_managers` `table` reader wants, since `row_key`/`col_key` default to `table-row`/`table-col`.
+#
+# The label is **not bold** on this page, where on p3 it is: a selection by font alone would take
+# nothing. What identifies it is the text and the column (`x_max` short of the values' column),
+# and the value is the only thing to its right.
+BLACKROCK-EN25(inv_managers):
+  # The label wraps -- `Promoter, Investment Manager, Distributor and Securities Lending ` on one
+  # line and `Agent:` on the next -- and it is the **last** line that sits level with the value,
+  # so that is the one to anchor on. Anchoring on the first takes the wrong value: the band
+  # `is_right_of` opens runs from the label's top edge downwards, and the row above is tight
+  # enough that `BlackRock Asset Management Ireland Limited` (the Manager, y 455.6-467.8) still
+  # overlaps it, comes first in reading order, and wins.
+  #
+  # `^Agent:$` is exact, and measured: **one** line on **one** page of 1 261. A page that lost the
+  # wrap would carry no `Agent:` and the pipe would fail the page, which is the safe direction.
+  label:
+    font: arialmt
+    font_size: 8.5
+    text: '^Agent:$'
+  block_type: MANAGEMENT_COMPANY
+  name: investment manager
+  # `right` and not `on_line`: the value is a text object of its own in the second column, not a
+  # fragment of the label's line, so there is nothing to crop with `after`/`before`.
+  where: right
+
+# The running head of every page of the disclosure section names the sub-fund it belongs to, in
+# the same capitals the schedule of investments uses. Measured: one line on each of the 33 pages.
+BLACKROCK-EN25(esg_indicators):
+  selection:
+    font: arial-boldmt
+    font_size: 8.5
+    area: {x_max: 600, y_min: 70, y_max: 86}

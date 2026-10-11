@@ -1,0 +1,736 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "ICCREA",
+        "company_match": "Iccrea Banca SpA, 3.38%, 30/01/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0338,
+        "market_value": 175.0,
+        "maturity": {
+          "__date__": "2030-01-30"
+        },
+        "nominal_quantity": 150000.0,
+        "perc_net_assets": 0.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "ICCREA",
+        "company_match": "Iccrea Banca SpA, FRN, 6.38%, 20/09/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0638,
+        "market_value": 119.0,
+        "maturity": {
+          "__date__": "2027-09-20"
+        },
+        "nominal_quantity": 100000.0,
+        "perc_net_assets": 0.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "ICCREA",
+        "company_match": "Iccrea Banca SpA, FRN, 6.88%, 20/01/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0688,
+        "market_value": 121.0,
+        "maturity": {
+          "__date__": "2028-01-20"
+        },
+        "nominal_quantity": 100000.0,
+        "perc_net_assets": 0.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "ICCREA",
+        "company_match": "Iccrea Banca SpA, FRN, 4.25%, 05/02/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0425,
+        "market_value": 119.0,
+        "maturity": {
+          "__date__": "2030-02-05"
+        },
+        "nominal_quantity": 100000.0,
+        "perc_net_assets": 0.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 4.00%, 19/05/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.04,
+        "market_value": 116.0,
+        "maturity": {
+          "__date__": "2026-05-19"
+        },
+        "nominal_quantity": 100000.0,
+        "perc_net_assets": 0.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 1.00%, 19/11/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.01,
+        "market_value": 451.0,
+        "maturity": {
+          "__date__": "2026-11-19"
+        },
+        "nominal_quantity": 400000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 4.38%, 29/08/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0438,
+        "market_value": 357.0,
+        "maturity": {
+          "__date__": "2027-08-29"
+        },
+        "nominal_quantity": 300000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 4.75%, 06/09/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0475,
+        "market_value": 180.0,
+        "maturity": {
+          "__date__": "2027-09-06"
+        },
+        "nominal_quantity": 150000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 3.88%, 12/01/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0388,
+        "market_value": 196.0,
+        "maturity": {
+          "__date__": "2028-01-12"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 0.75%, 16/03/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0075,
+        "market_value": 219.0,
+        "maturity": {
+          "__date__": "2028-03-16"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 1.75%, 20/03/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0175,
+        "market_value": 674.0,
+        "maturity": {
+          "__date__": "2028-03-20"
+        },
+        "nominal_quantity": 600000.0,
+        "perc_net_assets": 0.0002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 4.00%, 23/09/2029",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.04,
+        "market_value": 194.0,
+        "maturity": {
+          "__date__": "2029-09-23"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 5.25%, 13/01/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0525,
+        "market_value": 252.0,
+        "maturity": {
+          "__date__": "2030-01-13"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 2.50%, 15/01/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.025,
+        "market_value": 360.0,
+        "maturity": {
+          "__date__": "2030-01-15"
+        },
+        "nominal_quantity": 300000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 4.88%, 19/05/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0488,
+        "market_value": 372.0,
+        "maturity": {
+          "__date__": "2030-05-19"
+        },
+        "nominal_quantity": 300000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 5.15%, 10/06/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0515,
+        "market_value": 656.0,
+        "maturity": {
+          "__date__": "2030-06-10"
+        },
+        "nominal_quantity": 500000.0,
+        "perc_net_assets": 0.0002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 2.93%, 14/10/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0293,
+        "market_value": 224.0,
+        "maturity": {
+          "__date__": "2030-10-14"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 3.63%, 16/10/2030",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0363,
+        "market_value": 501.0,
+        "maturity": {
+          "__date__": "2030-10-16"
+        },
+        "nominal_quantity": 425000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 5.13%, 29/08/2031",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0513,
+        "market_value": 190.0,
+        "maturity": {
+          "__date__": "2031-08-29"
+        },
+        "nominal_quantity": 150000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 5.63%, 08/03/2033",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0563,
+        "market_value": 261.0,
+        "maturity": {
+          "__date__": "2033-03-08"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 6.63%, 20/06/2033",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0663,
+        "market_value": 326.0,
+        "maturity": {
+          "__date__": "2033-06-20"
+        },
+        "nominal_quantity": 300000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 7.20%, 28/11/2033",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.072,
+        "market_value": 787.0,
+        "maturity": {
+          "__date__": "2033-11-28"
+        },
+        "nominal_quantity": 700000.0,
+        "perc_net_assets": 0.0002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 2.63%, 11/03/2036",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0263,
+        "market_value": 100.0,
+        "maturity": {
+          "__date__": "2036-03-11"
+        },
+        "nominal_quantity": 100000.0,
+        "perc_net_assets": 0.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, 7.80%, 28/11/2053",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.078,
+        "market_value": 239.0,
+        "maturity": {
+          "__date__": "2053-11-28"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, FRN, 5.00%, 08/03/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.05,
+        "market_value": 892.0,
+        "maturity": {
+          "__date__": "2028-03-08"
+        },
+        "nominal_quantity": 750000.0,
+        "perc_net_assets": 0.0002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, FRN, 6.50%, 14/03/2029",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.065,
+        "market_value": 275.0,
+        "maturity": {
+          "__date__": "2029-03-14"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, FRN, 4.20%, 01/06/2032",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.042,
+        "market_value": 186.0,
+        "maturity": {
+          "__date__": "2032-06-01"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, FRN, 3.85%, 16/09/2032",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0385,
+        "market_value": 996.0,
+        "maturity": {
+          "__date__": "2032-09-16"
+        },
+        "nominal_quantity": 850000.0,
+        "perc_net_assets": 0.0003
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, FRN, 8.25%, 21/11/2033",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0825,
+        "market_value": 813.0,
+        "maturity": {
+          "__date__": "2033-11-21"
+        },
+        "nominal_quantity": 700000.0,
+        "perc_net_assets": 0.0002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, FRN, 6.18%, 20/02/2034",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0618,
+        "market_value": 374.0,
+        "maturity": {
+          "__date__": "2034-02-20"
+        },
+        "nominal_quantity": 300000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, FRN, 4.27%, 14/11/2036",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0427,
+        "market_value": 465.0,
+        "maturity": {
+          "__date__": "2036-11-14"
+        },
+        "nominal_quantity": 400000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, FRN, 4.95%, 01/06/2042",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0495,
+        "market_value": 576.0,
+        "maturity": {
+          "__date__": "2042-06-01"
+        },
+        "nominal_quantity": 700000.0,
+        "perc_net_assets": 0.0002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "INTESA SANPAOLO",
+        "company_match": "Intesa Sanpaolo SpA, FRN, 7.78%, 20/06/2054",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
+        "interest_rate": 0.0778,
+        "market_value": 573.0,
+        "maturity": {
+          "__date__": "2054-06-20"
+        },
+        "nominal_quantity": 500000.0,
+        "perc_net_assets": 0.0002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ISHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND IE"
+      }
+    }
+  }
+]

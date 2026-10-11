@@ -1,0 +1,36 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "date": {
+          "__date__": "2025-07-31"
+        },
+        "fund": "BlackRock Euro Credit Enhanced Index Fund",
+        "liabilities": 21301.0,
+        "net_assets": 1282605.0,
+        "tot_assets": 1303906.0
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:FundAssets",
+      "data": {
+        "currency": {
+          "__enum__": "freeports.consts:Currency:USD"
+        },
+        "date": {
+          "__date__": "2025-07-31"
+        },
+        "fund": "iShares China CNY Bond Index Fund (IE)",
+        "liabilities": 1601.0,
+        "net_assets": 115347.0,
+        "tot_assets": 116948.0
+      }
+    }
+  }
+]

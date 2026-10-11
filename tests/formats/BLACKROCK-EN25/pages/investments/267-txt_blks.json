@@ -1,0 +1,134 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "iSHARES EURO CREDIT BOND INDEX FUND (IE)",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
+      "metadata": {},
+      "content": "iSHARES EURO CREDIT BOND INDEX FUND (IE)"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.07",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond, 1.50%, 18/01/2027",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CREDIT BOND INDEX FUND (IE)",
+      "interest rate": "1.50%",
+      "manco": null,
+      "market value": "684",
+      "maturity": "18/01/2027",
+      "quantity": "700,000",
+      "table col": 2,
+      "table row": 18
+    },
+    "content": "Israel Government Bond, 1.50%, 18/01/2027",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 2,
+        "table-row": 18
+      },
+      "content": "Israel Government Bond, 1.50%, 18/01/2027"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.05",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond, 1.50%, 16/01/2029",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CREDIT BOND INDEX FUND (IE)",
+      "interest rate": "1.50%",
+      "manco": null,
+      "market value": "472",
+      "maturity": "16/01/2029",
+      "quantity": "500,000",
+      "table col": 2,
+      "table row": 20
+    },
+    "content": "Israel Government Bond, 1.50%, 16/01/2029",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 2,
+        "table-row": 20
+      },
+      "content": "Israel Government Bond, 1.50%, 16/01/2029"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.03",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond, 2.38%, 18/01/2037",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CREDIT BOND INDEX FUND (IE)",
+      "interest rate": "2.38%",
+      "manco": null,
+      "market value": "337‌",
+      "maturity": "18/01/2037",
+      "quantity": "400,000",
+      "table col": 2,
+      "table row": 22
+    },
+    "content": "Israel Government Bond, 2.38%, 18/01/2037",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 2,
+        "table-row": 22
+      },
+      "content": "Israel Government Bond, 2.38%, 18/01/2037"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.02",
+      "company": "Israel Government",
+      "company match": "Israel Government Bond, 2.50%, 16/01/2049",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CREDIT BOND INDEX FUND (IE)",
+      "interest rate": "2.50%",
+      "manco": null,
+      "market value": "188",
+      "maturity": "16/01/2049",
+      "quantity": "250,000",
+      "table col": 7,
+      "table row": 0
+    },
+    "content": "Israel Government Bond, 2.50%, 16/01/2049",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 0
+      },
+      "content": "Israel Government Bond, 2.50%, 16/01/2049"
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+ {
+  "__pydantic__": {
+   "class": "freeports.output:Bond",
+   "data": {
+    "company": "Israel Government",
+    "company_match": "Israel Government",
+    "fund": "ISHARES EMERGING MARKETS GOVERNMENT BOND ADVANCED INDEX FUND (IE)",
+    "nominal_quantity": null,
+    "market_value": 978.0,
+    "currency": {
+     "__enum__": "freeports.consts:Currency:EUR"
+    },
+    "perc_net_assets": null,
+    "acquisition_cost": null,
+    "acquisition_currency": null,
+    "maturity": null,
+    "interest_rate": null
+   }
+  }
+ },
+ {
+  "__pydantic__": {
+   "class": "freeports.output:Bond",
+   "data": {
+    "company": "Siemens",
+    "company_match": "Siemens",
+    "fund": "ISHARES GREEN BOND INDEX FUND (IE)",
+    "nominal_quantity": null,
+    "market_value": 100.0,
+    "currency": {
+     "__enum__": "freeports.consts:Currency:EUR"
+    },
+    "perc_net_assets": null,
+    "acquisition_cost": null,
+    "acquisition_currency": null,
+    "maturity": null,
+    "interest_rate": null
+   }
+  }
+ },
+ {
+  "__pydantic__": {
+   "class": "freeports.output:Fund",
+   "data": {
+    "name": "ISHARES EMERGING MARKETS GOVERNMENT BOND ADVANCED INDEX FUND (IE)"
+   }
+  }
+ },
+ {
+  "__pydantic__": {
+   "class": "freeports.output:Fund",
+   "data": {
+    "name": "ISHARES GREEN BOND INDEX FUND (IE)"
+   }
+  }
+ },
+ {
+  "__pydantic__": {
+   "class": "freeports.output:Fund",
+   "data": {
+    "name": "ISHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)"
+   }
+  }
+ }
+]

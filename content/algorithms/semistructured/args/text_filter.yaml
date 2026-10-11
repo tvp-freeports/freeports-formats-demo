@@ -1,0 +1,138 @@
+# `IM-1`, la ricetta piu' semplice delle otto: una pagina di prospetto mette due etichette, una per
+# la societa' di gestione e una per il gestore, e sotto ciascuna un nome. Nessun comparto e'
+# nominato, quindi `R15` da' il residuo al gestore e alla `manco` resta il solo ruolo di `manco` —
+# per questo `emit_manco` scrive la sua riga ma `manco` non entra fra i gestori.
+# ASTERIA-EN23 e ASTERIA-EN24 scrivono la pagina **identica** a due anni di distanza.
+# `C05`: due pagine di prospetto, trattate allo stesso modo e senza passarsi il conto. Il residuo
+# qui non e' cio' che resta da dividere: e' l'intero insieme dei comparti, e darne una meta' a
+# ciascuna pagina scriverebbe una divisione che il documento non fa.
+# Il tubo d'autore scrive `RELEVANT_BLOCK`, non il tipo standard del gestore: la sezione la
+# riconosce il grassetto, e il tubo non pretende di sapere che cosa ciascuna riga sia.
+AMUNDI-EN24(inv_managers_begin):
+  read:
+    - kind: named
+  read_block_type: RELEVANT_BLOCK
+
+AMUNDI-EN24(inv_managers_end):
+  read:
+    - kind: named
+  read_block_type: RELEVANT_BLOCK
+
+# `C16`. La pagina 4 non distingue tipograficamente un nome dal suo indirizzo — tutto arialmt 8.04 —
+# e le entrate le separa il solo stacco verticale, che `entry_gap` nel `pdf_extract` conta.
+# `in charge for ` dice che il gestore ha **una parte** del comparto e non il comparto (`R21`):
+# ARCA prende il residuo, Goldman Sachs il solo `GLOBAL HIGH YIELD`.
+# `C05` e `C17`, in una classe sola perche' le due pagine sono un prospetto solo: la societa' di
+# gestione (p5) e le quattro sezioni dei gestori (p5 e p6), appiattite come vuole `R22`. Il nome e'
+# la prima riga dell'entrata piu' quelle che la virgola finale tiene attaccate, e la qualificazione
+# temporale si cerca su **ogni** riga, perche' qui sta sotto il nome e non in coda.
+DANSKEINVEST-EN24(inv_managers):
+  read:
+    - kind: named
+      wrapped:
+        - ',\s*$'
+      retired:
+        - '(?i)\(\s*until\b'
+  manco: blocks
+  emit_manco: when_present
+
+# `U7`, la situazione patrimoniale a cavallo di due pagine. `A1` lascia un blocco **nudo** per
+# etichetta, e `gather` dice quale tipo di blocco riempie quale metadato: riunirli è
+# interpretazione, quindi `text_filter` (`R23`).
+AMUNDI-IT24(fund_assets_begin):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    tot_assets: TOT_ASSETS
+
+AMUNDI-IT24(fund_assets_end):
+  gather:
+    fund: FUND_NAME
+    currency: CURRENCY_STATEMENT
+    date: ASSETS_DATE
+    liabilities: LIABILITIES
+    net_assets: NET_ASSETS
+  resume:
+    - tot_assets
+
+# `C02`, `R3`: il nome imposto dal formato (vedi `pdf_extract.yaml`).
+AMUNDI-IT24(manco):
+  name: Amundi SGR S.p.A.
+
+AMUNDI-EN24(esg_indicators):
+  read:
+    kind: dated_rows
+  fund:
+    kind: page_promise
+    field: amundi-esg-fund
+
+# Il valore in testa alla frase, il nome nel resto. La seconda voce dei sei comincia con la
+# precisazione e non col numero, quindi cade: e' la regola applicata, non un difetto.
+DANSKEINVEST-EN24(merges):
+  read:
+    kind: sentence
+    renamed:
+      - '(?<old>Danske Invest SICAV\s*[-–]\s*[^.]+?) was renamed (?<current>[^.]+?) effective (?<when>\d{1,2} \w+ \d{4})'
+    merged:
+      - '(?<old>Danske Invest SICAV\s*[-–]\s*[^.]+?) merged into (?<current>[^.]+?) on (?<when>\d{1,2} \w+ \d{4})'
+    strip:
+      - '^Danske Invest SICAV\s*[-–]\s*'
+
+# Un'intestazione datata apre un elenco, e le tre sezioni sorelle — lanciati, ridenominati,
+# liquidati — restano fuori perche' una riga che non porta il connettore **chiude** lo scopo.
+# Lo `strip` e' lo stesso prefisso che il modulo SFDR si toglie, e per la stessa ragione (`R24`).
+# Un'intestazione datata apre un elenco, e le tre sezioni sorelle — lanciati, ridenominati,
+# liquidati — restano fuori perche' una riga che non porta il connettore **chiude** lo scopo.
+# Lo `strip` e' lo stesso prefisso che il modulo SFDR si toglie, e per la stessa ragione (`R24`).
+AMUNDI-EN24(renaming):
+  read:
+    kind: listed
+    renamed:
+      - 'have been renamed'
+    merged:
+      - 'have been merged'
+      - 'have been absorbed'
+    strip:
+      - '^Amundi Funds\s+'
+
+# `product_prefix` replaces the language's own prefix rather than adding to it, so the annex's
+# label has to be restated even though it is the standard one.
+BLACKROCK-EN25(sfdr_classification):
+  language: ENGLISH
+  product_prefix:
+    - pattern: 'Product name\s*:\s*'
+
+# `R6` read the way you decided on 2026-10-10: the delegate **takes** the sub-fund out of the
+# residual, so the six sub-funds of the table go to their sub-investment manager and the other
+# seventeen to the Investment Manager. `manco: blocks` is that Investment Manager -- the block the
+# `labelled_value` pipe of this same pipeline wrote -- and `emit_manco: never` keeps it out of
+# `assets_managers.csv`, because the management company of this report is the one p3 declares
+# under `Manager` and this company is not it.
+BLACKROCK-EN25(inv_managers):
+  read:
+    - kind: table
+      fund_col: 0
+      manager_col: 1
+  read_block_type: DELEGATION_ROW
+  manco: blocks
+  emit_manco: never
+  already_assigned: true
+  # `false`, unlike FINECO-EN23@IR: the table names six sub-funds and two of them have no holding
+  # of interest. Letting them in writes a `funds.csv` row with an empty `Report` and `Report page`
+  # -- a sub-fund with no provenance, which no reference run of the collection has.
+  funds_include_assigned: false
+
+# `column: 0` is `R5`: the table repeats the two previous reference periods and the most recent is
+# the only datum. `fund: blocks` is the running head the `fund` pipe of this pipeline read -- this
+# page states the sub-fund itself, so there is nothing to promise and no distance to compute.
+BLACKROCK-EN25(esg_indicators):
+  read:
+    kind: dated_rows
+    series: 0
+    column: 0
+    indicator_key: indicator
+    series_key: series
+    column_key: column
+  fund:
+    kind: blocks
+    block_type: FUND_NAME

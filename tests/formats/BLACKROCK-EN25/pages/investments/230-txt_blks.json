@@ -1,0 +1,284 @@
+[
+  {
+    "__text_block__": true,
+    "type_block": "FUND",
+    "metadata": {},
+    "content": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "FUND_NAME",
+      "metadata": {},
+      "content": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.03",
+      "company": "Siemens",
+      "company match": "Siemens Energy Finance BV, 4.00%, 05/04/2026",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+      "interest rate": "4.00%",
+      "manco": null,
+      "market value": "504",
+      "maturity": "05/04/2026",
+      "quantity": "500,000",
+      "table col": 7,
+      "table row": 19
+    },
+    "content": "Siemens Energy Finance BV, 4.00%, 05/04/2026",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 19
+      },
+      "content": "Siemens Energy Finance BV, 4.00%, 05/04/2026"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.03",
+      "company": "Siemens",
+      "company match": "Siemens Energy Finance BV, 4.25%, 05/04/2029",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+      "interest rate": "4.25%",
+      "manco": null,
+      "market value": "521",
+      "maturity": "05/04/2029",
+      "quantity": "500,000",
+      "table col": 7,
+      "table row": 21
+    },
+    "content": "Siemens Energy Finance BV, 4.25%, 05/04/2029",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 21
+      },
+      "content": "Siemens Energy Finance BV, 4.25%, 05/04/2029"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.07",
+      "company": "Siemens",
+      "company match": "Siemens Financierings maatschappij NV, 0.00%, 20/02/2026",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+      "interest rate": "0.00%",
+      "manco": null,
+      "market value": "1,187",
+      "maturity": "20/02/2026",
+      "quantity": "1,200,000",
+      "table col": 7,
+      "table row": 23
+    },
+    "content": "Siemens Financierings maatschappij NV, 0.00%, 20/02/2026",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 23
+      },
+      "content": "Siemens Financierings maatschappij NV, 0.00%, 20/02/2026"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.04",
+      "company": "Siemens",
+      "company match": "Siemens Financierings maatschappij NV, 0.63%, 25/02/2027",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+      "interest rate": "0.63%",
+      "manco": null,
+      "market value": "781",
+      "maturity": "25/02/2027",
+      "quantity": "800,000",
+      "table col": 7,
+      "table row": 25
+    },
+    "content": "Siemens Financierings maatschappij NV, 0.63%, 25/02/2027",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 25
+      },
+      "content": "Siemens Financierings maatschappij NV, 0.63%, 25/02/2027"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.03",
+      "company": "Siemens",
+      "company match": "Siemens Financierings maatschappij NV, 1.00%, 06/09/2027",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+      "interest rate": "1.00%",
+      "manco": null,
+      "market value": "586",
+      "maturity": "06/09/2027",
+      "quantity": "600,000",
+      "table col": 7,
+      "table row": 27
+    },
+    "content": "Siemens Financierings maatschappij NV, 1.00%, 06/09/2027",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 27
+      },
+      "content": "Siemens Financierings maatschappij NV, 1.00%, 06/09/2027"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.01",
+      "company": "Siemens",
+      "company match": "Siemens Financierings maatschappij NV, 2.50%, 08/09/2027",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+      "interest rate": "2.50%",
+      "manco": null,
+      "market value": "201",
+      "maturity": "08/09/2027",
+      "quantity": "200,000",
+      "table col": 7,
+      "table row": 29
+    },
+    "content": "Siemens Financierings maatschappij NV, 2.50%, 08/09/2027",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 29
+      },
+      "content": "Siemens Financierings maatschappij NV, 2.50%, 08/09/2027"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.02",
+      "company": "Siemens",
+      "company match": "Siemens Financierings maatschappij NV, 0.90%, 28/02/2028",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+      "interest rate": "0.90%",
+      "manco": null,
+      "market value": "435",
+      "maturity": "28/02/2028",
+      "quantity": "450,000",
+      "table col": 7,
+      "table row": 31
+    },
+    "content": "Siemens Financierings maatschappij NV, 0.90%, 28/02/2028",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 31
+      },
+      "content": "Siemens Financierings maatschappij NV, 0.90%, 28/02/2028"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.02",
+      "company": "Siemens",
+      "company match": "Siemens Financierings maatschappij NV, 2.88%, 10/03/2028",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+      "interest rate": "2.88%",
+      "manco": null,
+      "market value": "408",
+      "maturity": "10/03/2028",
+      "quantity": "400,000",
+      "table col": 7,
+      "table row": 33
+    },
+    "content": "Siemens Financierings maatschappij NV, 2.88%, 10/03/2028",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 33
+      },
+      "content": "Siemens Financierings maatschappij NV, 2.88%, 10/03/2028"
+    }
+  },
+  {
+    "__text_block__": true,
+    "type_block": "BOND_TARGET",
+    "metadata": {
+      "% net assets": "0.06",
+      "company": "Siemens",
+      "company match": "Siemens Financierings maatschappij NV, 3.00%, 22/11/2028",
+      "currency": {
+        "__enum__": "freeports.consts:Currency:EUR"
+      },
+      "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+      "interest rate": "3.00%",
+      "manco": null,
+      "market value": "1,122‌",
+      "maturity": "22/11/2028",
+      "quantity": "1,100,000",
+      "table col": 7,
+      "table row": 35
+    },
+    "content": "Siemens Financierings maatschappij NV, 3.00%, 22/11/2028",
+    "pdf_block": {
+      "__pdf_block__": true,
+      "type_block": "TABLE_BODY",
+      "metadata": {
+        "table-col": 7,
+        "table-row": 35
+      },
+      "content": "Siemens Financierings maatschappij NV, 3.00%, 22/11/2028"
+    }
+  }
+]

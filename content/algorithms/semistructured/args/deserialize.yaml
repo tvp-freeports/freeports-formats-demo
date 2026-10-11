@@ -1,0 +1,7 @@
+# `U7`: la prima delle due pagine non costruisce niente, deposita. L'identificativo della promessa
+# è `tot_assets@<comparto>`, e lo scrive un posto solo — questa cella e il `resume` della pagina
+# dopo lo nominano, nessuno dei due lo compone.
+AMUNDI-IT24(fund_assets_begin):
+  fields:
+    - tot_assets
+

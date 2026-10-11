@@ -1,0 +1,5 @@
+ID,Algorithm flags,Column tolerance,Row tolerance,Interpret quantity as float,Interpret cost and value as int,Geometrical indexing,Interpret dash as zero,Remove from fund,Collapse,Collapse direction,Collapse algorithm,Quantity in name
+AMUNDI-IT24(investments)/0,,,,TRUE,FALSE,,,,,,,
+DANSKEINVEST-EN24,,,,,,,MARKET_VALUE | PERC_NET_ASSETS,\s*[*]*\s*$,0,up,,
+AMUNDI-EN24,,,,,,,MARKET_VALUE,,1 | 5,down,,
+BLACKROCK-EN25,,,,,,,,\(continued\),2 | 7,up,,

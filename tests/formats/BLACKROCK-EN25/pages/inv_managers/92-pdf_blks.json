@@ -1,0 +1,152 @@
+[
+  {
+    "__pdf_block__": true,
+    "type_block": "MANAGEMENT_COMPANY",
+    "metadata": {},
+    "content": "BlackRock Advisors (UK) Limited"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 0
+    },
+    "content": "iShares China CNY Bond Index Fund (IE)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 0
+    },
+    "content": "BlackRock (Singapore) Limited"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 1
+    },
+    "content": "iShares Emerging Markets Local Government Bond Index Fund (IE)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 1
+    },
+    "content": "BlackRock Financial Management, Inc. "
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 2
+    },
+    "content": "iShares Emerging Markets Local Government Bond Index Fund (IE)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 2
+    },
+    "content": "BlackRock (Singapore) Limited"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 3
+    },
+    "content": "iShares Emerging Markets Government Bond Advanced Index Fund (IE)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 3
+    },
+    "content": "BlackRock Financial Management, Inc."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 5
+    },
+    "content": "iShares Global Aggregate 1-5 Year Bond Index Fund (IE)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 5
+    },
+    "content": "BlackRock Financial Management, Inc."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 6
+    },
+    "content": "iShares Global Aggregate 1-5 Year Bond Index Fund (IE)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 6
+    },
+    "content": "BlackRock (Singapore) Limited"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 7
+    },
+    "content": "iShares Green Bond Index Fund (IE)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 7
+    },
+    "content": "BlackRock Financial Management, Inc."
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 0,
+      "table-row": 8
+    },
+    "content": "iShares Global Securitised Index Fund (IE)"
+  },
+  {
+    "__pdf_block__": true,
+    "type_block": "DELEGATION_ROW",
+    "metadata": {
+      "table-col": 1,
+      "table-row": 8
+    },
+    "content": "BlackRock Financial Management, Inc"
+  }
+]

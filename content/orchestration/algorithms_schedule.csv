@@ -1,0 +1,25 @@
+Format name,Page type,Filter next iteration
+AMUNDI-IT24,investments,TRUE
+AMUNDI-IT24,fund_assets_begin,TRUE
+AMUNDI-IT24,fund_assets_end,
+AMUNDI-IT24,sfdr_classification,
+AMUNDI-IT24,manco,
+AMUNDI-EN24,investments,TRUE
+AMUNDI-EN24,sfdr_classification,TRUE
+AMUNDI-EN24,esg_indicators,
+AMUNDI-EN24,renaming,
+AMUNDI-EN24,inv_managers_begin,
+AMUNDI-EN24,inv_managers_end,
+AMUNDI-EN24,fund_assets,
+AMUNDI-EN24,fund_assets_right,
+AMUNDI-EN24,manco,
+DANSKEINVEST-EN24,investments,TRUE
+DANSKEINVEST-EN24,sfdr_classification,
+DANSKEINVEST-EN24,merges,
+DANSKEINVEST-EN24,inv_managers,
+BLACKROCK-EN25,investments,TRUE
+BLACKROCK-EN25,inv_managers,TRUE
+BLACKROCK-EN25,manco,
+BLACKROCK-EN25,fund_assets,
+BLACKROCK-EN25,sfdr_classification,
+BLACKROCK-EN25,esg_indicators,

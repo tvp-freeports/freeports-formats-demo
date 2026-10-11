@@ -1,0 +1,208 @@
+[
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "Siemens Energy Finance BV, 4.00%, 05/04/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+        "interest_rate": 0.04,
+        "market_value": 504.0,
+        "maturity": {
+          "__date__": "2026-04-05"
+        },
+        "nominal_quantity": 500000.0,
+        "perc_net_assets": 0.0003
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "Siemens Energy Finance BV, 4.25%, 05/04/2029",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+        "interest_rate": 0.0425,
+        "market_value": 521.0,
+        "maturity": {
+          "__date__": "2029-04-05"
+        },
+        "nominal_quantity": 500000.0,
+        "perc_net_assets": 0.0003
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "Siemens Financierings maatschappij NV, 0.00%, 20/02/2026",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+        "interest_rate": 0.0,
+        "market_value": 1187.0,
+        "maturity": {
+          "__date__": "2026-02-20"
+        },
+        "nominal_quantity": 1200000.0,
+        "perc_net_assets": 0.0007
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "Siemens Financierings maatschappij NV, 0.63%, 25/02/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+        "interest_rate": 0.0063,
+        "market_value": 781.0,
+        "maturity": {
+          "__date__": "2027-02-25"
+        },
+        "nominal_quantity": 800000.0,
+        "perc_net_assets": 0.0004
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "Siemens Financierings maatschappij NV, 1.00%, 06/09/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+        "interest_rate": 0.01,
+        "market_value": 586.0,
+        "maturity": {
+          "__date__": "2027-09-06"
+        },
+        "nominal_quantity": 600000.0,
+        "perc_net_assets": 0.0003
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "Siemens Financierings maatschappij NV, 2.50%, 08/09/2027",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+        "interest_rate": 0.025,
+        "market_value": 201.0,
+        "maturity": {
+          "__date__": "2027-09-08"
+        },
+        "nominal_quantity": 200000.0,
+        "perc_net_assets": 0.0001
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "Siemens Financierings maatschappij NV, 0.90%, 28/02/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+        "interest_rate": 0.009,
+        "market_value": 435.0,
+        "maturity": {
+          "__date__": "2028-02-28"
+        },
+        "nominal_quantity": 450000.0,
+        "perc_net_assets": 0.0002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "Siemens Financierings maatschappij NV, 2.88%, 10/03/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+        "interest_rate": 0.0288,
+        "market_value": 408.0,
+        "maturity": {
+          "__date__": "2028-03-10"
+        },
+        "nominal_quantity": 400000.0,
+        "perc_net_assets": 0.0002
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Bond",
+      "data": {
+        "acquisition_cost": null,
+        "acquisition_currency": null,
+        "company": "Siemens",
+        "company_match": "Siemens Financierings maatschappij NV, 3.00%, 22/11/2028",
+        "currency": {
+          "__enum__": "freeports.consts:Currency:EUR"
+        },
+        "fund": "iSHARES EURO CORPORATE BOND ESG SRI INDEX FUND (IE)",
+        "interest_rate": 0.03,
+        "market_value": 1122.0,
+        "maturity": {
+          "__date__": "2028-11-22"
+        },
+        "nominal_quantity": 1100000.0,
+        "perc_net_assets": 0.0006
+      }
+    }
+  },
+  {
+    "__pydantic__": {
+      "class": "freeports.output:Fund",
+      "data": {
+        "name": "ISHARES EURO CORPORATE BOND ESG SRI INDEX FUND IE"
+      }
+    }
+  }
+]

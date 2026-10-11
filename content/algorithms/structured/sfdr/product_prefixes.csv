@@ -1,0 +1,6 @@
+ID,Pattern
+DANSKEINVEST-EN24(sfdr_classification),Product name\s*:\s*
+DANSKEINVEST-EN24(sfdr_classification),^Danske Invest SICAV\s+
+AMUNDI-EN24(sfdr_classification),Product name\s*:\s*
+AMUNDI-EN24(sfdr_classification),^AMUNDI FUNDS\s+
+AMUNDI-IT24(sfdr_classification),Nome del prodotto\s*:\s*

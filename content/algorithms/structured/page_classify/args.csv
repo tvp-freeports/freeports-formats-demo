@@ -1,0 +1,34 @@
+ID,Header set,Class
+AMUNDI-EN24,"ArialNarrow-BoldItalic ""Securities Portfolio as at""",investments
+AMUNDI-EN24/1,"""eriodic disclosure for the financial products""",sfdr_classification
+AMUNDI-IT24,"TrebuchetMS-Bold ""Titolo""",investments
+AMUNDI-IT24/1,"TrebuchetMS-Bold ""^ATTIVITÀ""",fund_assets_begin
+AMUNDI-IT24/1,"TrebuchetMS-Bold ""^TOTALE ATTIVITÀ""",fund_assets_begin
+AMUNDI-IT24/2,"TrebuchetMS-Bold ""^PASSIVITÀ E NETTO""",fund_assets_end
+AMUNDI-IT24/2,"TrebuchetMS-Bold ""^TOTALE PASSIVITÀ""",fund_assets_end
+AMUNDI-IT24/3,"""nformativa periodica per i prodotti finanziari""",sfdr_classification
+AMUNDI-IT24/4,"Arial-BoldMT ""^SOMMARIO""",manco
+DANSKEINVEST-EN24,"Calibri[13] ""Statement of Investments""",investments
+DANSKEINVEST-EN24/1,"""periodic disclosure for the financial products""",sfdr_classification
+DANSKEINVEST-EN24/2,"calibri-bold ""EVENTS DURING THE YEAR""",merges
+DANSKEINVEST-EN24/4,"calibri-bold ""INVESTMENT MANAGER""",inv_managers
+AMUNDI-EN24/9,"arial-boldmt ""^1  INTRODUCTION""",renaming
+AMUNDI-EN24/10,"arial-boldmt [7] ""^INVESTMENT MANAGERS""",inv_managers_begin
+AMUNDI-EN24/11,"arial-boldmt [7] ""^SUB-INVESTMENT MANAGERS""",inv_managers_end
+AMUNDI-EN24/12,"arialmt ""^Statement of Net Assets$""",fund_assets
+AMUNDI-EN24/12,"verdana-bold ""^Net asset value$""",fund_assets
+AMUNDI-EN24/13,"calibri-bolditalic [8.28] ""^How did the sustainability indicators perform""",esg_indicators
+AMUNDI-EN24/14,"arial-boldmt [7] ""^MANAGEMENT COMPANY""",manco
+AMUNDI-EN24/15,"verdana[5.5:6.5]((:110)(170:183)) ""^30/06/2024$""",right_facing
+BLACKROCK-EN25,"arial-boldmt[8.5] ""^SCHEDULE OF INVESTMENTS""",investments
+BLACKROCK-EN25,"arial-boldmt[8.5] ""^Investment$""",investments
+BLACKROCK-EN25/1,"arial-boldmt[8.5] ""^GENERAL INFORMATION""",manco
+BLACKROCK-EN25/1,"arial-boldmt[8.5] ""^Manager$""",manco
+BLACKROCK-EN25/2,"arial-boldmt[8.5] ""^BALANCE SHEET""",fund_assets
+BLACKROCK-EN25/2,"arial-boldmt[8.5] ""^Total current assets""",fund_assets
+BLACKROCK-EN25/3,"arial-boldmt[8.5] ""^Product name:""",sfdr_classification
+BLACKROCK-EN25/3,"arial-boldmt[8.5] ""^Did this financial product have a sustainable investment objective""",sfdr_classification
+BLACKROCK-EN25/4,"arial-boldmt[8.5] ""^Fund name$""",inv_managers
+BLACKROCK-EN25/4,"arial-boldmt[8.5] ""^Sub-Investment Managers$""",inv_managers
+BLACKROCK-EN25/5,"arial-boldmt[8.5]((395:440)(:)) ""^2025""",esg_indicators
+BLACKROCK-EN25/5,"arial-boldmt[8.5] ""sustainability indicators perform""",esg_indicators
