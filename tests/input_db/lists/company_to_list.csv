@@ -34,11 +34,7 @@ TEST,Hewlett Packard Enterprise
 TEST,Hyundai Heavy Industries
 TEST,International Business Machines
 TEST,Israel Aereospace Industries
-TEST,Israel Government
-TEST,Israel Government International
-TEST,Italy btps
 TEST,Keller Williams Reality
-TEST,Keren Kayemeth LeIsrael
 TEST,KW Israel
 TEST,Leonardo
 TEST,Lockheed Martin
@@ -56,22 +52,13 @@ TEST,Petróleo Brasileiro
 TEST,Siemens
 TEST,The Caisse de dépôt et placement du Québec
 TEST,Volvo Car Corp
-TEST,ITALY BTPS
-TEST,ITALY BOTS
 TEST,ICCREA
 TEST,INTESA SANPAOLO
-TEST,ISRAEL FIXED
 TEST,ALMAWAVE
 TEST,MONDADORI
-TEST,EF BOND US
-TEST,YOURINDEX SICAV
-TEST,EU EU BOND
-TEST,BOTS ZC
 TEST,AXA SA
 TEST,ENELIM
 TEST,TAIWAN SEMICONDUCTOR
 TEST,ROLLS
-TEST,YIS MSCI WORLD
 TEST,DANBNK
 TEST,NORDEA
-TEST,ISHARES
