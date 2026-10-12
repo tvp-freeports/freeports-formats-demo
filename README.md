@@ -46,9 +46,9 @@ Not a tick per column: the **rows each format's reference output actually carrie
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | `AMUNDI-EN24` | 608 | 87 | 15 | 1 218 | 87 | 82 | — | 21 |
 | `AMUNDI-IT24` | 111 | 26 | 1 | 26 | 26 | 22 | — | — |
-| `BLACKROCK-EN25` | **1 394** | 15 | 5 | 17 | **15** | 4 | **15** | — |
+| `BLACKROCK-EN25` | **1 394** | 15 | 1 | 17 | **15** | 4 | **15** | — |
 | `DANSKEINVEST-EN24` | 215 | 29 | 10 | 261 | — | 28 | — | 1 |
-| **total** | **2 328** | **157** | **31** | **1 522** | **128** | **136** | **15** | **22** |
+| **total** | **2 328** | **157** | **27** | **1 522** | **128** | **136** | **15** | **22** |
 
 A dash is **not** a gap in the engine. It is one of three things, and which one is written down:
 

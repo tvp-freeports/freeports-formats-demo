@@ -28,7 +28,5 @@ BLACKROCK-EN25/2,"arial-boldmt[8.5] ""^BALANCE SHEET""",fund_assets
 BLACKROCK-EN25/2,"arial-boldmt[8.5] ""^Total current assets""",fund_assets
 BLACKROCK-EN25/3,"arial-boldmt[8.5] ""^Product name:""",sfdr_classification
 BLACKROCK-EN25/3,"arial-boldmt[8.5] ""^Did this financial product have a sustainable investment objective""",sfdr_classification
-BLACKROCK-EN25/4,"arial-boldmt[8.5] ""^Fund name$""",inv_managers
-BLACKROCK-EN25/4,"arial-boldmt[8.5] ""^Sub-Investment Managers$""",inv_managers
 BLACKROCK-EN25/5,"arial-boldmt[8.5]((395:440)(:)) ""^2025""",esg_indicators
 BLACKROCK-EN25/5,"arial-boldmt[8.5] ""sustainability indicators perform""",esg_indicators

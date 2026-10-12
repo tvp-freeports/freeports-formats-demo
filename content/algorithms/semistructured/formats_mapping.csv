@@ -21,6 +21,4 @@ AMUNDI-EN24(esg_indicators),,esg,esg_indicator
 DANSKEINVEST-EN24(merges),section,renaming,renaming
 AMUNDI-EN24(renaming),section,renaming,renaming
 BLACKROCK-EN25(sfdr_classification),sfdr_annex,sfdr_annex,sfdr_article
-BLACKROCK-EN25(inv_managers),labelled_value,inv_managers,investments_manager
-BLACKROCK-EN25(inv_managers),,,fund
 BLACKROCK-EN25(esg_indicators),fund,esg,esg_indicator

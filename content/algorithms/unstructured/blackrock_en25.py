@@ -220,6 +220,6 @@ def indicators(page):
 #: ``labelled_value`` and ``fund`` pipes of the same pipelines. The three levels sum by pipeline
 #: name, so this module supplies a ``pdf_extract`` alone for each of its two.
 pipelines = {
-    "inv_managers": Pipeline(pdf_extract=delegations),
+    # "inv_managers": Pipeline(pdf_extract=delegations),
     "esg_indicators": Pipeline(pdf_extract=indicators),
 }
