@@ -1,2 +1,3 @@
 ID,pdf_extract,text_filter,deserialize
 AMUNDI-IT24,FALSE,TRUE,TRUE
+BLACKROCK-EN25,TRUE,TRUE,FALSE

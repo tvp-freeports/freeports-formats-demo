@@ -41,8 +41,13 @@ from freeports.utils.pdf_extract import (
     PdfLineSelection,
     get_table_coordinates,
     pdflines_from_pagedict,
+    pdfline_selection_from_str
 )
-
+from freeports.output import FundAssets
+from freeports.standard_funcs.deserialize import DeserializerInvestmentStandard, DeserializerFundStandard, DeserializerAssetsStandard
+from freeports.standard_funcs.pdf_extract import PdfExtractAssetsStandard, AssetsColumn
+from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
+from freeports.utils.deserialize import to_int, to_date_with_en_month
 #: The table's body: the ordinary face, between its own header and the sentence that closes it.
 #:
 #: Both bounds are lines of the page and neither is an ordinate, because the page carries the same
@@ -219,7 +224,61 @@ def indicators(page):
 #: The filters and the deserializers are configuration: see ``args/text_filter.yaml``, and the
 #: ``labelled_value`` and ``fund`` pipes of the same pipelines. The three levels sum by pipeline
 #: name, so this module supplies a ``pdf_extract`` alone for each of its two.
+d=DeserializerInvestmentStandard()
+def deserialize(txt_blk):
+    i=d(txt_blk)
+    if i is not None:
+        i.market_value = i.market_value * 1000
+    return i
+
+
+da=DeserializerAssetsStandard(to_int,date_converter=to_date_with_en_month)
+def deserialize_assets(txt_blk):
+    a=da(txt_blk)
+    if a is not None:
+        tot_assets = a.tot_assets * 1000
+        net_assets = a.net_assets * 1000
+        liabilities = a.liabilities * 1000
+        return FundAssets(
+            fund=a.fund,
+            date=a.date,
+            tot_assets=tot_assets,
+            liabilities=liabilities,
+            net_assets=net_assets,
+            currency=a.currency
+        )
+
+
 pipelines = {
+    "investments": Pipeline(deserialize=(deserialize,DeserializerFundStandard())),
+    "fund_assets": Pipeline(PdfExtractAssetsStandard(
+        fund_set=pdfline_selection_from_str("arial-boldmt[8.5]((200:)(75:<arial-boldmt[8.5] \"'000\">)) / \"^2025\" / \"^2024\""),
+        currency_set=pdfline_selection_from_str("arial-boldmt[8.5] \"'000\""),
+        date=pdfline_selection_from_str("arial-boldmt[8.5] \"^As at 31 July\""),
+        tot_assets=AssetsColumn(
+            pdfline_selection_from_str(
+                "arial-boldmt[8.5] \"^Total current assets\""
+            ),(1.2,0.0),(100.0,1.02)
+        ),
+        liabilities=AssetsColumn(
+            pdfline_selection_from_str(
+                "arial-boldmt[8.5] \"^Total current liabilities\""
+            ),
+            (1.2,0.0),(100.0,1.02)
+        ),
+        net_assets=AssetsColumn(
+            pdfline_selection_from_str(
+                "arial-boldmt[8.5] \"^redeemable shareholders\""
+            ),
+            (1.5,0.0),(100.0,1.02)
+        ),
+        drop=pdfline_selection_from_str("arial-boldmt[8.5] \"^2024\""),
+        drop_funds=pdfline_selection_from_str("arial-boldmt[8.5] \"^BlackRock Fixed Income Dublin\""),
+        table_condition=True
+
+    ),TextFilterAssetsStandard(
+        date_regex="As at ([0-9]+ .+ [0-9]+)"
+    ),deserialize_assets),
     # "inv_managers": Pipeline(pdf_extract=delegations),
     "esg_indicators": Pipeline(pdf_extract=indicators),
 }
