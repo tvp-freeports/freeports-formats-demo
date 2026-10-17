@@ -12,7 +12,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0338,
-        "market_value": 175.0,
+        "market_value": 175000.0,
         "maturity": {
           "__date__": "2030-01-30"
         },
@@ -34,7 +34,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0638,
-        "market_value": 119.0,
+        "market_value": 119000.0,
         "maturity": {
           "__date__": "2027-09-20"
         },
@@ -56,7 +56,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0688,
-        "market_value": 121.0,
+        "market_value": 121000.0,
         "maturity": {
           "__date__": "2028-01-20"
         },
@@ -78,7 +78,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0425,
-        "market_value": 119.0,
+        "market_value": 119000.0,
         "maturity": {
           "__date__": "2030-02-05"
         },
@@ -100,7 +100,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.04,
-        "market_value": 116.0,
+        "market_value": 116000.0,
         "maturity": {
           "__date__": "2026-05-19"
         },
@@ -122,7 +122,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.01,
-        "market_value": 451.0,
+        "market_value": 451000.0,
         "maturity": {
           "__date__": "2026-11-19"
         },
@@ -144,7 +144,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0438,
-        "market_value": 357.0,
+        "market_value": 357000.0,
         "maturity": {
           "__date__": "2027-08-29"
         },
@@ -166,7 +166,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0475,
-        "market_value": 180.0,
+        "market_value": 180000.0,
         "maturity": {
           "__date__": "2027-09-06"
         },
@@ -188,7 +188,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0388,
-        "market_value": 196.0,
+        "market_value": 196000.0,
         "maturity": {
           "__date__": "2028-01-12"
         },
@@ -210,7 +210,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0075,
-        "market_value": 219.0,
+        "market_value": 219000.0,
         "maturity": {
           "__date__": "2028-03-16"
         },
@@ -232,7 +232,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0175,
-        "market_value": 674.0,
+        "market_value": 674000.0,
         "maturity": {
           "__date__": "2028-03-20"
         },
@@ -254,7 +254,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.04,
-        "market_value": 194.0,
+        "market_value": 194000.0,
         "maturity": {
           "__date__": "2029-09-23"
         },
@@ -276,7 +276,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0525,
-        "market_value": 252.0,
+        "market_value": 252000.0,
         "maturity": {
           "__date__": "2030-01-13"
         },
@@ -298,7 +298,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.025,
-        "market_value": 360.0,
+        "market_value": 360000.0,
         "maturity": {
           "__date__": "2030-01-15"
         },
@@ -320,7 +320,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0488,
-        "market_value": 372.0,
+        "market_value": 372000.0,
         "maturity": {
           "__date__": "2030-05-19"
         },
@@ -342,7 +342,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0515,
-        "market_value": 656.0,
+        "market_value": 656000.0,
         "maturity": {
           "__date__": "2030-06-10"
         },
@@ -364,7 +364,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0293,
-        "market_value": 224.0,
+        "market_value": 224000.0,
         "maturity": {
           "__date__": "2030-10-14"
         },
@@ -386,7 +386,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0363,
-        "market_value": 501.0,
+        "market_value": 501000.0,
         "maturity": {
           "__date__": "2030-10-16"
         },
@@ -408,7 +408,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0513,
-        "market_value": 190.0,
+        "market_value": 190000.0,
         "maturity": {
           "__date__": "2031-08-29"
         },
@@ -430,7 +430,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0563,
-        "market_value": 261.0,
+        "market_value": 261000.0,
         "maturity": {
           "__date__": "2033-03-08"
         },
@@ -452,7 +452,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0663,
-        "market_value": 326.0,
+        "market_value": 326000.0,
         "maturity": {
           "__date__": "2033-06-20"
         },
@@ -474,7 +474,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.072,
-        "market_value": 787.0,
+        "market_value": 787000.0,
         "maturity": {
           "__date__": "2033-11-28"
         },
@@ -496,7 +496,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0263,
-        "market_value": 100.0,
+        "market_value": 100000.0,
         "maturity": {
           "__date__": "2036-03-11"
         },
@@ -518,7 +518,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.078,
-        "market_value": 239.0,
+        "market_value": 239000.0,
         "maturity": {
           "__date__": "2053-11-28"
         },
@@ -540,7 +540,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.05,
-        "market_value": 892.0,
+        "market_value": 892000.0,
         "maturity": {
           "__date__": "2028-03-08"
         },
@@ -562,7 +562,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.065,
-        "market_value": 275.0,
+        "market_value": 275000.0,
         "maturity": {
           "__date__": "2029-03-14"
         },
@@ -584,7 +584,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.042,
-        "market_value": 186.0,
+        "market_value": 186000.0,
         "maturity": {
           "__date__": "2032-06-01"
         },
@@ -606,7 +606,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0385,
-        "market_value": 996.0,
+        "market_value": 996000.0,
         "maturity": {
           "__date__": "2032-09-16"
         },
@@ -628,7 +628,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0825,
-        "market_value": 813.0,
+        "market_value": 813000.0,
         "maturity": {
           "__date__": "2033-11-21"
         },
@@ -650,7 +650,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0618,
-        "market_value": 374.0,
+        "market_value": 374000.0,
         "maturity": {
           "__date__": "2034-02-20"
         },
@@ -672,7 +672,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0427,
-        "market_value": 465.0,
+        "market_value": 465000.0,
         "maturity": {
           "__date__": "2036-11-14"
         },
@@ -694,7 +694,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0495,
-        "market_value": 576.0,
+        "market_value": 576000.0,
         "maturity": {
           "__date__": "2042-06-01"
         },
@@ -716,7 +716,7 @@
         },
         "fund": "iSHARES SCREENED GLOBAL CORPORATE BOND INDEX FUND (IE)",
         "interest_rate": 0.0778,
-        "market_value": 573.0,
+        "market_value": 573000.0,
         "maturity": {
           "__date__": "2054-06-20"
         },

@@ -16,19 +16,19 @@ data:
       - path: tests/formats/AMUNDI-EN24/out/funds_change_name.csv
         sha256: 45120535301e5a2ce09cfaab0c3fad71e33810f7e3e5e60bfd0a3cb81029df4b
       - path: tests/formats/AMUNDI-EN24/out/funds.csv
-        sha256: 4c10a9da3d8a280e2f091fdbba8450e2bc701635261d5dc25629f2b147a53104
+        sha256: 1828d22f4c2457051d668413aacea0b2d4c10c9b7cc66ebc207c87d66bc68b93
       - path: tests/formats/AMUNDI-EN24/out/funds_esg_indicators.csv
         sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
       - path: tests/formats/AMUNDI-EN24/out/funds_sfdr_classification.csv
         sha256: 530f75125419606e52878587cba1061d8b9fb37a949f1b423e0fe81eb9488046
       - path: tests/formats/AMUNDI-EN24/out/investments_add_infos.yaml
-        sha256: e192f9027fbc529f148711d68df16780a355c412ac37fae95a043511eb81fe47
+        sha256: 074db596a17f184255ef3c8edb00a0109deeed97e10a366de5307964d7ed9906
       - path: tests/formats/AMUNDI-EN24/out/investments.csv
-        sha256: 140b2d1530d3b7ed2224ba8904f2dbd616ae68cd14a8cbb478486c27d6a4a34a
+        sha256: c10d7f3f7577055722aec97702cf0d016f31860ba2a5538a8a66ee2be08910df
       - path: tests/formats/AMUNDI-EN24/out/investments_managers_to_funds.csv
         sha256: e103bbbdc9c6f4f8bb5975fa4edb5658678da34663bce8e0189b9b7169d166c2
       - path: tests/formats/AMUNDI-EN24/out/.log.csv
-        sha256: d558c2975898428dd7aadd586cd603aeee77761a3c6bdda9723afd16350f2306
+        sha256: c3eabf442dac1f8c4d465e587fab91375d401fccbc4c877b3a65c0eb9fda7bbf
       - path: tests/formats/AMUNDI-EN24/pages/esg_indicators/778-pdf_blks.json
         sha256: c53491acbdba066ca89094c18adad51841b36a12c636e8ccebb86bf854e5e65d
       - path: tests/formats/AMUNDI-EN24/pages/esg_indicators/778-results.json
@@ -100,23 +100,23 @@ data:
       - path: tests/formats/AMUNDI-IT24/out/assets_managers.csv
         sha256: e5da0d13c3e97ab379c2689178bcf57a6446c8f8bbaaedcbd430205a3d3caea6
       - path: tests/formats/AMUNDI-IT24/out/funds_assets.csv
-        sha256: ec3432856c9fbc30b9a16823f026cb093c8980848a83e08ffca83dd7a5a08ea4
+        sha256: 7fd4a10bc28e99d63ecd46fc11dfabe965851c5371c08060a86fe5f0f36be525
       - path: tests/formats/AMUNDI-IT24/out/funds_change_name.csv
         sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
       - path: tests/formats/AMUNDI-IT24/out/funds.csv
-        sha256: 83a155c4a3628cf822984d403aad9754ddbb2db30fd8a21c5645e89f2add872d
+        sha256: 52c11782b1e6164980a149c4c0d1208244c7b4d0cce1be14a0dfb43a41fdc2f4
       - path: tests/formats/AMUNDI-IT24/out/funds_esg_indicators.csv
         sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
       - path: tests/formats/AMUNDI-IT24/out/funds_sfdr_classification.csv
-        sha256: 6af1bcaab7b259c9f2ae6b0e06cdecde56234152eb6056d08b381ed191602fa5
+        sha256: 15c929571be7f667a182266ea10eca2601c7fb5bd1757bb8d66754bb9c9f1307
       - path: tests/formats/AMUNDI-IT24/out/investments_add_infos.yaml
-        sha256: a46809f10848277c159ffc26b0a13dc0c4843fb1d3bf46e95780defc9860b027
+        sha256: fd0ef740fe0e820cf4440c24e7866b728450d8c897a61327ed5d6bc3e8106ed2
       - path: tests/formats/AMUNDI-IT24/out/investments.csv
-        sha256: 718fb0da591119d1b2e3c0288f62ed76227570615a835f6163fc1c445b1bfe81
+        sha256: c2ab2d3653b4ac170e273e02feb1fad09c988666fe2f1f10c9176f8aa52eb73a
       - path: tests/formats/AMUNDI-IT24/out/investments_managers_to_funds.csv
-        sha256: a0782b08bec46525728c58c30154c10242fde9fabeb64c985310220cadd775ec
+        sha256: cc8969f2096d3ad8d57a9add6c9d2d63368fb48aae7fd123033b8682c472f7c4
       - path: tests/formats/AMUNDI-IT24/out/.log.csv
-        sha256: f3188a2e19e3f2a6d981dfaa1e791a24760bc5ae2a60b54ad27c0c5c4ce0c850
+        sha256: 1656094ee8e3096ed259d2989e5283e5198e428e7a04c9a2c4f93a64545ce961
       - path: tests/formats/AMUNDI-IT24/pages/fund_assets_begin/20-pdf_blks.json
         sha256: aa3bddc4026a56aa99f8ebca738c6ea1045e390a0cf25342d6d0cab4a46f5bc7
       - path: tests/formats/AMUNDI-IT24/pages/fund_assets_begin/20-results.json
@@ -136,9 +136,9 @@ data:
       - path: tests/formats/AMUNDI-IT24/pages/investments/559-pdf_blks.json
         sha256: 82a458f67204013244dde3f61282c8e3fa47892b6d5e3c9de41e7571eb576145
       - path: tests/formats/AMUNDI-IT24/pages/investments/559-results.json
-        sha256: 3cd29cc6b48592d3db9a28ce53b7e033b5ff0b5104644049f9b1fb5556ffc162
+        sha256: 3bfc2bc2c36361b6d9a536e1323ed3089a19942576f3c0f05a7105aae6ef2196
       - path: tests/formats/AMUNDI-IT24/pages/investments/559-txt_blks.json
-        sha256: fde121462b2c6c5bd6becf548caf8fe535721f1b03083e5d795fd0e032024a33
+        sha256: a0dbcdb05c146a432fd1d05213bf8547ab8110b2e1c2fcbcd12caeb8d7564c0b
       - path: tests/formats/AMUNDI-IT24/pages/manco/2-pdf_blks.json
         sha256: 43cb9eafe8158a0d124209d30d9dda7a85b4bcfdcbd0a3607c7d4a5a38b3b22b
       - path: tests/formats/AMUNDI-IT24/pages/manco/2-results.json
@@ -154,25 +154,25 @@ data:
       - path: tests/formats/AMUNDI-IT24/pages/sfdr_classification/filter_data.json
         sha256: 7e799f3741b0dee3c3627f295094aacecfcc34b3eb5bd076349ee6f659dee88b
       - path: tests/formats/BLACKROCK-EN25/out/assets_managers.csv
-        sha256: 7620e9b1d5cfb5e0b89260ff9cc3b35590b1f072cd4270edbe32e9e5ee81673e
+        sha256: 485399b191ce1a904f939fe497c3f5db075d6c0c9c10c169ca1571c97432d6dd
       - path: tests/formats/BLACKROCK-EN25/out/funds_assets.csv
-        sha256: de5cb8a93f3b0e1d13e29448f661678a88aa590b6e05f851316a9d5c33da096a
+        sha256: 083f67cd2a32e470ddbdf943443a3f61ae5cf6f65e61951b9432d7a18818f299
       - path: tests/formats/BLACKROCK-EN25/out/funds_change_name.csv
         sha256: fb92c7a8debf056d7a4bf3111988be1c981d7c1b65c0f30aa77fccf0bf0613d2
       - path: tests/formats/BLACKROCK-EN25/out/funds.csv
-        sha256: 63d279ea97668703fa0278cdecf22b5536a22141f4bd6f53945ca077038058f4
+        sha256: 4aea8ba2b661dd1e0da70fab91c36cba643a0ad5efca5d360f2abfbd59e12c3a
       - path: tests/formats/BLACKROCK-EN25/out/funds_esg_indicators.csv
-        sha256: 2dd09b4a875731314a0641b05085335afa05719be4cb5b1440365b4d19db47bc
+        sha256: 3db844fe11798dc8f5520d82260472b75c6e68e1f55132659d6bb0bc94ebdbe4
       - path: tests/formats/BLACKROCK-EN25/out/funds_sfdr_classification.csv
-        sha256: 41d0c7f43738ea6ac2b5be71172a936057e00182f580853c966c2db7a66a5613
+        sha256: fd5d43c1de49906c7b7951d2be481a754651ca0723cb5c68c75f893b380a9c18
       - path: tests/formats/BLACKROCK-EN25/out/investments_add_infos.yaml
-        sha256: 9c4e1653c3d2cfd31168ee8c1075166afd888b7ac0e369b774dfe5a998f710e1
+        sha256: ef019a275121bb9e1b7170cb3ceafbf79f801b0dedbc041fb28d184d26545dc0
       - path: tests/formats/BLACKROCK-EN25/out/investments.csv
-        sha256: a84b0cd059969d06f1f190874eb2b3fe944f1a16a252bff6c32241500d4c79cc
+        sha256: 4c392bf3aba77c2f11c5f071558c884810522d5080b81eabc875e774d9aa9add
       - path: tests/formats/BLACKROCK-EN25/out/investments_managers_to_funds.csv
-        sha256: ec737f88f45eba4433bed65f28d6bcc2ef53e765589ad296f9daa60b157330cb
+        sha256: 61a2fdb4de77e335300c4d00970da1e673c4230703520554c7a3104d80f2e197
       - path: tests/formats/BLACKROCK-EN25/out/.log.csv
-        sha256: 1eab17e2398cb2db9d7075505763ec08382f21666d7badaa5a8db59d0e7514f7
+        sha256: a67006fce1bcf28a2ca30698a8f8ea62e0c505be6c4a358d9f5241709b634f74
       - path: tests/formats/BLACKROCK-EN25/pages/esg_indicators/1227-pdf_blks.json
         sha256: d1d38f7702a467a9807dff23e6f1c85e9b977b4169fd4ad2e99a7d9c24b8926d
       - path: tests/formats/BLACKROCK-EN25/pages/esg_indicators/1227-results.json
@@ -188,13 +188,13 @@ data:
       - path: tests/formats/BLACKROCK-EN25/pages/fund_assets/37-pdf_blks.json
         sha256: 24bfcaba96195dcd817bb5aad1b4f1c52593e6c942386e9b81d8aec08cda006f
       - path: tests/formats/BLACKROCK-EN25/pages/fund_assets/37-results.json
-        sha256: 1c1d9b68a92270b85e2ca9521b4e038c8ed09d02b8746ab275d568e84bfaad40
+        sha256: 0e9f819393390de9c21dea84e6a9c765a371b8af69c48d01bf17e6e23265c47a
       - path: tests/formats/BLACKROCK-EN25/pages/fund_assets/37-txt_blks.json
         sha256: 1b43bcb1bc0feaac3520af674606274628d80f0c32b05d7c99c3a9256f10e5da
       - path: tests/formats/BLACKROCK-EN25/pages/fund_assets/42-pdf_blks.json
         sha256: ff302b7c7848663a4843ba11f09a7f699244c5a70cb42ba6e2b4f971ce2f4bd3
       - path: tests/formats/BLACKROCK-EN25/pages/fund_assets/42-results.json
-        sha256: 17bb23b8be91eb0dcb5ba84b4ecd67064ab3a2cae5a0b84883057005cf3a6514
+        sha256: cb3ac4b1bab579203b8ac9357ebcbdf36bfb131cab287b5690e7044d1444268d
       - path: tests/formats/BLACKROCK-EN25/pages/fund_assets/42-txt_blks.json
         sha256: e614adbced921ba1929af4ae3c929ecce7452e53ad2f26aee4f3d3f5fee3f86e
       - path: tests/formats/BLACKROCK-EN25/pages/fund_assets/filter_data.json
@@ -202,35 +202,15 @@ data:
       - path: tests/formats/BLACKROCK-EN25/pages/investments/230-pdf_blks.json
         sha256: f42bc1b8c78e75bc86f09d49ee9121d7b1b92d5fc52499c51309a1ea21180a45
       - path: tests/formats/BLACKROCK-EN25/pages/investments/230-results.json
-        sha256: ead9a564abae771e565f5bee35a203f19ea235e38e03b50ef2a00910de3c92bd
+        sha256: 33bdfcf34f83a12e7713a0914007968ece2f1f23bab23f004461a00c9ecdbae4
       - path: tests/formats/BLACKROCK-EN25/pages/investments/230-txt_blks.json
         sha256: f5caec1912cc28b50de6e5e7d4d398f100bffe8f1580acdf01d541d8b8d725b4
-      - path: tests/formats/BLACKROCK-EN25/pages/investments/267-pdf_blks.json
-        sha256: d0b2b745656e75df4b234c24649782810fd1cb103cd482c31e6a1c540b456d3a
-      - path: tests/formats/BLACKROCK-EN25/pages/investments/267-results.json
-        sha256: 1058d8db81e3e62a080d6be559eebcfb8392924da3c90722fd7d449e6d928e3d
-      - path: tests/formats/BLACKROCK-EN25/pages/investments/267-txt_blks.json
-        sha256: 02b508a5867bd7578ba78c7522b34a1522c4dc6c5021d36452adda6dd4b9d5fc
       - path: tests/formats/BLACKROCK-EN25/pages/investments/731-pdf_blks.json
         sha256: 2cb5879b31fdf998bdad3de34da2da2c0cc91a3f85be6fcf46ed0f5a710c2f11
       - path: tests/formats/BLACKROCK-EN25/pages/investments/731-results.json
-        sha256: 70c1b9c46e936b308081fd7c1353c1a66d16c8a135c670ed23bb5751b7f38ddf
+        sha256: 0370fc6983d2247cc45323711641da65d3512070d5ea67e00a334c6b1a288ac7
       - path: tests/formats/BLACKROCK-EN25/pages/investments/731-txt_blks.json
         sha256: 7ee03230d38ce77e216bf373d8a4080ed587ef3a10482be05370e71147443663
-      - path: tests/formats/BLACKROCK-EN25/pages/investments/99-pdf_blks.json
-        sha256: 7acab88b0f7acc396cd3e07b553fab665ebab18379e45ae31ed97739fbb844d0
-      - path: tests/formats/BLACKROCK-EN25/pages/investments/99-results.json
-        sha256: ed0306b04526d13163e3ff213d4d9fd0714ace9d6079a611bf6fcab21c0d6556
-      - path: tests/formats/BLACKROCK-EN25/pages/investments/99-txt_blks.json
-        sha256: 92216e35008c0194108315022460db6277b55dfc4f60df5d768c6f2b20a0e74f
-      - path: tests/formats/BLACKROCK-EN25/pages/inv_managers/92-pdf_blks.json
-        sha256: 3a0be89d3f4dda5c911cd0f90f47054dc9e97fbf0a3e3cf3783f0929198fc059
-      - path: tests/formats/BLACKROCK-EN25/pages/inv_managers/92-results.json
-        sha256: 13de887984dde93aef8697673953fff953b5103509a6a97a81b2920ca778753f
-      - path: tests/formats/BLACKROCK-EN25/pages/inv_managers/92-txt_blks.json
-        sha256: 15763f17014febef43de835c6b1a032cc02bcc6673dd3371c98d1664d6dd0b81
-      - path: tests/formats/BLACKROCK-EN25/pages/inv_managers/filter_data.json
-        sha256: 70c488001093da41d166de8006757b85faca8b48f9b411ede847609934635cc5
       - path: tests/formats/BLACKROCK-EN25/pages/sfdr_classification/1226-pdf_blks.json
         sha256: 0a694f8050ffde2d430b27df9665bb0026d584d48fc8b6edfa26311395ed1969
       - path: tests/formats/BLACKROCK-EN25/pages/sfdr_classification/1226-results.json
@@ -250,21 +230,21 @@ data:
       - path: tests/formats/DANSKEINVEST-EN24/out/funds_assets.csv
         sha256: 2f0a8bcae8659e702f75d00ba2154bd3518d55680960364e42bce4d5d54cbf6a
       - path: tests/formats/DANSKEINVEST-EN24/out/funds_change_name.csv
-        sha256: 454f5b2da4d3b223faff036a0253ab7df1998c4b2f31337ba27e0c272833bf70
+        sha256: 73a86ac909ea217d0087ac79357ceb244ba234cdad030fea1839ebcf9115eba2
       - path: tests/formats/DANSKEINVEST-EN24/out/funds.csv
-        sha256: 5f0803450d0d715326dcd4e02b79f609c4e1b1ad892b2ad5572c9ce3ed63b768
+        sha256: c6bda91ddbdd21655f9a351fbcab0c65f88532a2012e11d2404766c9b91c3eec
       - path: tests/formats/DANSKEINVEST-EN24/out/funds_esg_indicators.csv
         sha256: 81db0e5a73a438cbf827036798d91fdcff0e29a64d767e6b6cc7cb863bc3a6ce
       - path: tests/formats/DANSKEINVEST-EN24/out/funds_sfdr_classification.csv
-        sha256: 348a172dd493af6ff561cbfe3c9f259cb5d18dee206aac0ea54f8b036fcc6a4c
+        sha256: a3846d95591a9a8d794ac014af29e1871cbf3ba4519333e521d83e5f3f20bbf9
       - path: tests/formats/DANSKEINVEST-EN24/out/investments_add_infos.yaml
-        sha256: 561e1e6756c9d1eb7b17986a9adfa3c17706ea05194ef7215f2bfd2332d28f1a
+        sha256: 4fddf2a58ef286b5d708fa064452a775bc8863926f84cb4ae2d7b724ec8e2fd4
       - path: tests/formats/DANSKEINVEST-EN24/out/investments.csv
-        sha256: e4fd18118ea98008761add0f7d11520e41dd95ec98b9889bb13c52c8c032dc6a
+        sha256: 86603b8d1975bf8777ca493857cd1c96eb9ce0d5feed33b020ba05933e349fff
       - path: tests/formats/DANSKEINVEST-EN24/out/investments_managers_to_funds.csv
-        sha256: ab8df1fe00c5d8c1b64ee1d476b1a279e325274735a538ae9f6b4a325c77ae91
+        sha256: 2e7338a9e530cd7f1bc4492b64388d56eea560ff8ed55b60f698d21c157af708
       - path: tests/formats/DANSKEINVEST-EN24/out/.log.csv
-        sha256: 140a8eea56ad8538049086884f989146bc969dc9e2c252b9a87d2c000bb718e6
+        sha256: 6f346c7fde582280dbdaa8a62e82d511bfc5fea33ebcf0bc3ad0be6d43379ac8
       - path: tests/formats/DANSKEINVEST-EN24/pages/investments/163-pdf_blks.json
         sha256: b84bbc14598e6a5e614d3099ecda3913f5c7ca49265474721e219542e32d91e1
       - path: tests/formats/DANSKEINVEST-EN24/pages/investments/163-results.json
@@ -296,15 +276,15 @@ data:
 sign: |-
   -----BEGIN PGP SIGNATURE-----
 
-  iQGzBAABCgAdFiEECeUG3YZaZKNkufVWEP9oNtnjUgkFAmrLSTsACgkQEP9oNtnj
-  UglZ2wwAscCZrmi4aRLPgQ0TwVpgtdQinQRO6i61aDuKKWcSF07+phNUySyDeLzx
-  KM/VvfWle34jOQrgPdRfJEjiPh+GkG8uSbonnZccXAQvh64qVmNnHXoNVew34E3R
-  94M4reEHddEdsTyYwcRS29qwLdTSbTG3x1Jb4KvTuWXS3ZdoCQBpcOlGHjn+/liQ
-  mc8BvUdFiuW4mFM0caj12sxdpYYSYnCMf0wVFrYYVffFikCR2veRB6ktPy7m8iGC
-  QZjAmqiY0eXCNuBK8EKnx+Pxyt+o6e7t4h7PRlj8YD+2vJ/KqbjAp4kf49urTSxV
-  R+pU35bvEcO/K0OJWkVuaaeDG8ed4/gGhPu+hyKbwV6MCJ5khbf57OCS4C1y4s3H
-  o9+LVp4CR9N7pGfzarC4f1M9w4ngA0VcpXkGnFudufbr/MlgYkR4OVNyKiTGQ5V2
-  aGCZKLRZnq/l5TqC/xyWM/Y7fmlw2k4Ly3T1nQjq0svWq2GMulweHSJ48QpGe4OL
-  nfcqhLTe
-  =+qOk
+  iQGzBAABCgAdFiEECeUG3YZaZKNkufVWEP9oNtnjUgkFAmrTQv4ACgkQEP9oNtnj
+  UglBjAv/dVaU2oCsX3oOHSoLR+YrcjEXvqbtvUqfsByQZWFFSCkqOQRbgS8Smtks
+  FyQcCyP6vkhV0A72q78yRT2cYTf2Ic+NSNY5eYSQuPXZY/geVVDOAqOYUdTPfL6T
+  396D74NJY9Wzw/pBo2W9Yg2jZ1WDmBxMsQVMogf8oeo2zao0R1JGZL7qslXGk3bl
+  pj7eX09heakkfEXRsa+j2Glc4uw751m3/ga47pMcwIvysO+fTYO4wLlR1JiDq0+/
+  Y7OwiW890MvetkLsdZduA5jia+bnN0py28fdjJR12P7Fet+lPNC54m/TMJ5IlY/P
+  RTQmBVTLl8vQ920e/TItldQXtT3ZRAqwLDVM0qCKPW8aKFbaOCuN8FsQjG5mTtuG
+  DkU891hP43eQYwveJ4UkMTO3mlKpQ1QQaFCnC7SewxLcHvnflgxOSv/PPBiBk8A9
+  2oszLU5zqwBhunzgRDcrIzWM7Z23Gvqnr7jQMupOOQHqKV78sr7SiMS3TOI+6OQb
+  LP9/Sdtt
+  =6kW5
   -----END PGP SIGNATURE-----

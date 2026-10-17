@@ -1,5 +1,5 @@
 schema: v0.0.0
 info:
   description: "Demo - four formats, one of them written here"
-  version: v0.0.1
-  validation_sha256: 7c6f09335d39167ce6f893321a434533a1e58e6b5828ebff3cff87c7ed9628e8
+  version: v0.0.2
+  validation_sha256: 60f63870b75a5bb28c7f86f2afc78400319a2163c19ff37a527d9b210b295487

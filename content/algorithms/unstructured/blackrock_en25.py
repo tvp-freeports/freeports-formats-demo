@@ -41,12 +41,9 @@ from freeports.utils.pdf_extract import (
     PdfLineSelection,
     get_table_coordinates,
     pdflines_from_pagedict,
-    pdfline_selection_from_str
 )
 from freeports.output import FundAssets
 from freeports.standard_funcs.deserialize import DeserializerInvestmentStandard, DeserializerFundStandard, DeserializerAssetsStandard
-from freeports.standard_funcs.pdf_extract import PdfExtractAssetsStandard, AssetsColumn
-from freeports.standard_funcs.text_filter import TextFilterAssetsStandard
 from freeports.utils.deserialize import to_int, to_date_with_en_month
 #: The table's body: the ordinary face, between its own header and the sentence that closes it.
 #:
@@ -251,34 +248,9 @@ def deserialize_assets(txt_blk):
 
 pipelines = {
     "investments": Pipeline(deserialize=(deserialize,DeserializerFundStandard())),
-    "fund_assets": Pipeline(PdfExtractAssetsStandard(
-        fund_set=pdfline_selection_from_str("arial-boldmt[8.5]((200:)(75:<arial-boldmt[8.5] \"'000\">)) / \"^2025\" / \"^2024\""),
-        currency_set=pdfline_selection_from_str("arial-boldmt[8.5] \"'000\""),
-        date=pdfline_selection_from_str("arial-boldmt[8.5] \"^As at 31 July\""),
-        tot_assets=AssetsColumn(
-            pdfline_selection_from_str(
-                "arial-boldmt[8.5] \"^Total current assets\""
-            ),(1.2,0.0),(100.0,1.02)
-        ),
-        liabilities=AssetsColumn(
-            pdfline_selection_from_str(
-                "arial-boldmt[8.5] \"^Total current liabilities\""
-            ),
-            (1.2,0.0),(100.0,1.02)
-        ),
-        net_assets=AssetsColumn(
-            pdfline_selection_from_str(
-                "arial-boldmt[8.5] \"^redeemable shareholders\""
-            ),
-            (1.5,0.0),(100.0,1.02)
-        ),
-        drop=pdfline_selection_from_str("arial-boldmt[8.5] \"^2024\""),
-        drop_funds=pdfline_selection_from_str("arial-boldmt[8.5] \"^BlackRock Fixed Income Dublin\""),
-        table_condition=True
-
-    ),TextFilterAssetsStandard(
-        date_regex="As at ([0-9]+ .+ [0-9]+)"
-    ),deserialize_assets),
+    # The statement's extraction and filter are the structured row in `fund_assets/args.csv`; its
+    # partial-pipes row leaves the deserializer to this module, which reads the '000 amounts.
+    "fund_assets": Pipeline(deserialize=deserialize_assets),
     # "inv_managers": Pipeline(pdf_extract=delegations),
     "esg_indicators": Pipeline(pdf_extract=indicators),
 }

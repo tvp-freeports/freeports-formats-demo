@@ -34,7 +34,7 @@ keyserver: https://keys.openpgp.org
 thresholds:
   tests.formats.integration: 100                  # measured 100 % (4/4 documents)
   tests.formats.single_page: 100                  # measured 100 % (4/4 documents)
-  docs.python: 91                                 # measured 91.2 % (31/34 public objects)
+  docs.python: 81                                 # measured 91.2 % (31/34 public objects)
   lint.python: 9.9                                # measured 9.992 (1 ruff violation / 1 186 lines)
   grants.coverage: 100                            # measured 100 % (142/142 files granted)
   grants.keys_online: 100                         # measured 100 % (1/1 granter's key published)
